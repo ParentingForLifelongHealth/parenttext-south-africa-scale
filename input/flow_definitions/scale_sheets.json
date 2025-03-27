@@ -2167,25 +2167,25 @@
     ],
     "goals_api_sources": [
       {
-        "book": "localized.json",
+        "book": "scale_sheets.json",
         "model": "ModuleDataGlobal",
         "resource": "modules",
         "sheet": "module_data"
       },
       {
-        "book": "localized.json",
+        "book": "scale_sheets.json",
         "model": "GoalModuleLinkGlobal",
         "resource": "goal_topic_links",
         "sheet": "goal_topic_link"
       },
       {
-        "book": "localized.json",
+        "book": "scale_sheets.json",
         "model": "GoalDataGlobal",
         "resource": "goals",
         "sheet": "goal_data"
       },
       {
-        "book": "ltp_activities.json",
+        "book": "C_ltp_activities.json",
         "model": "LTPActivities",
         "resource": "ltp_activities",
         "sheet": "ltp_activity_data"
