@@ -6,6 +6,7 @@
     "flows_outputbasename": "parenttext_all",
     "output_split_number": 1,
     "sheet_names": {
+        "power_of_play": "1SfCm8B5d0JSLL-k51uKA0iWZSUda45ITf449a8DwdDY",
         "scale_sheets": "1Wc3Tv1TQbUNKBLEnZn5Z3JSTh0F9Ts6T_prWG92f4Ck",
         "T_content": "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU",
         "N_onboarding_data": "1M8CTXL7C0gIMw28hRTCMdAgfr8j2SEEO5WLJPPWC4GU",
@@ -48,7 +49,8 @@
                     "T_delivery",
                     "N_menu_data",
                     "T_menu",
-                    "scale_sheets"
+                    "scale_sheets",
+                    "power_of_play"
                 ]
         },
         "edits_pretranslation": {
