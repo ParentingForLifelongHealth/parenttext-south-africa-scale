@@ -206,7 +206,7 @@
             "sources": [
                 "safeguarding"
             ],
-            "redirect_flow_names": "[\"safeguarding_redirect_to_topic_all\", \"safeguarding_redirect_to_topic_start\", \"safeguarding_redirect_to_topic_trigger\"]"
+            "redirect_flow_names": "[\"safeguarding_redirect_to_topic_all\", \"safeguarding_redirect_to_topic_start\", \"safeguarding_redirect_to_topic_trigger\",\"safeguarding_redirect_to_topic_play\"]"
         }
     ]
 }
