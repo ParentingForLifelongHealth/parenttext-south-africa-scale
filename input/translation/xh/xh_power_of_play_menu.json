@@ -1,0 +1,416 @@
+[
+  {
+    "SourceText": "Time for some fun! 🤸🏾 Let's play together!",
+    "text": "Lixesha lokuzonwabisa!🤸🏾 Masidlale kunye!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Tell me a bit about your child so I can share the best play ideas for you! 🎲✨",
+    "text": "Ndixelele kancinci malunga nomntwana wakho ukwenzela ndizokwabelana nawe ngeembono ezilungileyo zokudlala!🎲✨",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🏎️ Great! Let's go! 🏎️",
+    "text": "🏎️ Kwakuhle! Masihambe! 🏎️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Tap 'Let’s Play!' and I’ll share a simple, fun, and free activity you can do together!",
+    "text": "Cofa 'Masidlale!' kwaye Ndizakwabelana nawe ngemidlalo elula, eyonwabisayo, kwaye emahala esingayenza kunye!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What should we do next?",
+    "text": "Yintoni esingayenza elandelayo?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "Uxolo, andiqondi ukuba uthini.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Perfect! 🌟",
+    "text": "Igqibelele!🌟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sure!",
+    "text": "Ngokuqinisekileyo!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "See you next time! You can message {PLAY} whenever you would like another easy and fun play idea.",
+    "text": "Ndakubona kwixesha elizayo! Ungathumela umyalezo{PLAY} nangeliphina ixesha ungathanda imbono ngomnye umdlalo olula nowonwabisayo.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I can do more than just play! 🎉 In this chat, you can also get ParentText.",
+    "text": "Ndingenza nangaphezu kokudlala nje!🎉 Kule ncoko, ungafumana kwane Parent Text.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "ParentText can help you improve your relationship with your child in just 5 days—totally free!",
+    "text": "IParent Text ingakunceda ukuphuhlisa ubudlwelane bakho kunye nomntwana wakho ngeentsukwana ezi 5-ngokupheleleyo mahala!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Want to give it a try?",
+    "text": "Ufuna ukuyizama?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay. If you change your mind, you can always message {PLAY} if you want another activity or {START} if you want to start the programme.",
+    "text": "Kulungile oko. Ukuba utshintsha ingqondo, Ungakwazi ukuthumela umyalezo ngalo lonke ixesha {PLAY} ukuba ufuna omnye umdlalo okanye {START} ukuba ufuna ukuqala inkqubo.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great, let's do it!",
+    "text": "Kulungile, Masenze!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What age is your child?",
+    "text": "Mingaphi iminyaka yomntwana wakho?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You entered @results.number. Please enter a number between 0 and 17.",
+    "text": "Ufake @results.number. Ndicela ufake inani eliphakathi ko 0 kunye 17.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You entered @results.number. This looks too old. Please enter a number between 0 and 17.",
+    "text": "Ufake @results.number. Lento ikhangeleka indala kakhulu. Ndicela ufake inani eliphakathi ko 0 kunye 17.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.  Please enter a number between 0 and 17.",
+    "text": "Uxolo, Andiqondi ukuba uthetha ukuthini. Nceda ubhale inani eliphakathi ko 0 kunye 17.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What language works best for you?",
+    "text": "Loluphi ulwimi olusebenzela wena kakuhle kakhulu?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Quick question for you! 🤔 What are the benefits of play?",
+    "text": "Umbuzo ongxamileyo kuwe! 🤔 Yeyiphi imivuzo yokudlala?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Absolutely! Play is fun – and it also helps your child grow and supports both your mental health and your child’s.",
+    "text": "Ngokuqinisekileyo! Ukudlala kuyonwabisa - kwaye kunceda umtwana wakho akhule kwaye kuxhasa impilo yengqondo yakho kunye neyomntana wakho.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Want to learn more? Complete the full survey here: {IOGT link}",
+    "text": "Ufuna ukufunda ngaphezulu? Gqibezela uphando olupheleleyo apha: {IOGT link}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Yes! Play can boost your mood and reduce stress – and it also encourages your child’s development in ways that are fun for you both.",
+    "text": "Ewe! Ukudlala kuphucula imvakalelo yakho kwaye kwehlisa noxinzeleko - kwaye kukwakhuthaza uphuhliso lomntwana wakho kwiindlela ezonwabisayo kuni nobabini.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s right! Play builds important life skills – and it also supports emotional wellbeing for both you and your child in a fun way.",
+    "text": "Ilungile lonto! Ukudlala kwakha izakhono zobomi ezibalulekileyo - kwaye kuxhasa impilo yeemvakalelo yakho kunye nomntwana wakho ngendlela eyonwabisayo.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Exactly! Play is fun, it supports mental health, and it helps your child grow – all at the same time. Everyone wins!",
+    "text": "Ngokuchanekileyo! Ukudlala kuyonwabisa, kuxhasa impilo yengqondo, kwaye ikwanceda ukukhula komntwana wakho - kwangaxesha linye. Wonke umntu uyaphumelela!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I don't understand your message.",
+    "text": "Andiwuqondi lomyalezo wakho.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Message {PLAY} to get a simple, fun activity that you can do with your child. 🤸🏾",
+    "text": "Bhala {PLAY} ukufumana umdlalo olula, owonwabisayo ongawenza kunye nomntwana wakho.🤸🏾",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "In this chat, you can also get ParentText. ParentText can help you improve your relationship with your child in just 5 days—totally free.",
+    "text": "Kule ncoko, ungakwazi ukufumana i Parent Text. Parent Text ingakunceda ukuphuhlisa ubudlelwana kunye nomntwana wakho ngeentsukwana ezi 5 - ngokupheleleyo mahala.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Type {START} to get started!",
+    "text": "Cofa {START} ukukwazi ukuqala!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let’s Play!",
+    "text": "Masidlale!",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Another fun idea, please!",
+    "text": "Enye imbono eyonwabisayo, ndiyacela!",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Let's try an activity for a different age!",
+    "text": "Masizame umdlalo weminyaka yobudala eyohlukileyo!",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Learn more tips to support my child",
+    "text": "Ndifunda iingcebiso ezininzi ukuxhasa umntwana wam",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change my language",
+    "text": "Tshintsha ulwimi lwam",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Stop for today",
+    "text": "Yima okwanamhlanje",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes",
+    "text": "Ewe",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No",
+    "text": "Hayi",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "English",
+    "text": "IsiNgesi",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Afrikaans",
+    "text": "IAfrikansi",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "IsiXhosa",
+    "text": "IsiXhosa",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Zulu",
+    "text": "IsiZulu",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Play is fun",
+    "text": "Ukudlala kuyonwabisa",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Play supports mental health for both children and caregivers",
+    "text": "Ukudlala kuxhasa impilo yengqondo yakho kunye nomntwana wakho kunye nabakhathaleli",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Play promotes a child's overall development",
+    "text": "Ukudlala kukhuthaza uphuhliso olubanzi lomntwana",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "All of the above",
+    "text": "Zonke ezi zingentla",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "another fun idea, please!",
+    "text": "enye imbono eyonwabisayo, ndiyacela!",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "let's try an activity for a different age!",
+    "text": "masizame umdlalo weminyaka yobudala eyohlukileyo!",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "learn more tips to support my child",
+    "text": "ndifunda iingcebiso ezininzi ukuxhasa umntwana wam",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change my language",
+    "text": "tshintsha ulwimi",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "stop for today",
+    "text": "yima okwanamhlanje",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no",
+    "text": "hayi",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes",
+    "text": "ewe",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "english",
+    "text": "isingesi",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "afrikaans",
+    "text": "iafrikansi",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "isixhosa",
+    "text": "isixhosa",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "zulu",
+    "text": "isizulu",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "play is fun",
+    "text": "ukudlala kuyonwabisa",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "play supports mental health for both children and caregivers",
+    "text": "ukudlala kuxhasa impilo yengqondo yakho kunye nomntwana wakho kunye nabakhathaleli",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "play promotes a child's overall development",
+    "text": "ukudlala kukhuthaza uphuhliso olubanzi lomntwana",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "all of the above",
+    "text": "zonke ezi zingentla",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "generic",
+    "text": "ufuzo",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "mental_health",
+    "text": "iimpilo_zengqondo",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "health",
+    "text": "impilo",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "violence",
+    "text": "ubundlobongela",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "natural_disasters",
+    "text": "iintlekele_zendalo",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "drugs",
+    "text": "iziyobisi",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "help",
+    "text": "uncedo",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "play",
+    "text": "dlala",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "start",
+    "text": "qala",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]

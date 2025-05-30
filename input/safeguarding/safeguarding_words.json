@@ -5359,9 +5359,12 @@
                     "keywords": [
                         "NCEDA",
                         "ncedo",
-                        "uncedo"
+                        "uncedo",
+                        "help"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "sos"
+                    ]
                 },
                 "zul": {
                     "keywords": [
@@ -5372,7 +5375,8 @@
                     ],
                     "mispellings": [
                         "usiizo",
-                        "sos"
+                        "sos",
+                        "help"
                     ]
                 },
                 "afr": {
@@ -5384,8 +5388,43 @@
                     ],
                     "mispellings": [
                         "hup",
-                        "hylp"
+                        "hylp",
+                        "sos"
                     ]
+                }
+            }
+        }
+    ],
+    "start": [
+        {
+            "English": {
+                "keywords": [
+                    "parenttext",
+                    "parentext"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "hau": {
+                    "keywords": [
+                        "parenttext",
+                        "parentext"
+                    ],
+                    "mispellings": []
+                },
+                "zul": {
+                    "keywords": [
+                        "parenttext",
+                        "parentext"
+                    ],
+                    "mispellings": []
+                },
+                "afr": {
+                    "keywords": [
+                        "parenttext",
+                        "parentext"
+                    ],
+                    "mispellings": []
                 }
             }
         }
@@ -5413,7 +5452,8 @@
                         "mnyu"
                     ],
                     "mispellings": [
-                        "imenu"
+                        "imenu",
+                        "menu"
                     ]
                 },
                 "zul": {
@@ -5425,13 +5465,15 @@
                     ],
                     "mispellings": [
                         "imanyu",
-                        "immenyu"
+                        "immenyu",
+                        "menu"
                     ]
                 },
                 "afr": {
                     "keywords": [
                         "KIESLYS",
-                        "Hoofkieslys"
+                        "Hoofkieslys",
+                        "menu"
                     ],
                     "mispellings": [
                         "keislys",
@@ -5540,13 +5582,16 @@
                     "pley"
                 ],
                 "mispellings": [
-                    "plaay"
+                    "plaay",
+                    "playbus"
                 ]
             },
             "Translation": {
                 "hau": {
                     "keywords": [
-                        "DLALA"
+                        "DLALA",
+                        "play",
+                        "playbus"
                     ],
                     "mispellings": []
                 },
@@ -5558,12 +5603,16 @@
                         "dlalla"
                     ],
                     "mispellings": [
-                        "ddlala"
+                        "ddlala",
+                        "play",
+                        "playbus"
                     ]
                 },
                 "afr": {
                     "keywords": [
-                        "SPEEL"
+                        "SPEEL",
+                        "play",
+                        "playbus"
                     ],
                     "mispellings": [
                         "spel",

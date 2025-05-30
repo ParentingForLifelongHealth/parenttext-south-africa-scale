@@ -1,0 +1,416 @@
+[
+  {
+    "SourceText": "Time for some fun! 🤸🏾 Let's play together!",
+    "text": "Tyd vir 'n bietjie pret! 🤸🏾 Kom ons speel saam!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Tell me a bit about your child so I can share the best play ideas for you! 🎲✨",
+    "text": "Vertel my 'n bietjie meer van jou kind sodat ek die beste speletjies-idees met jou kan deel! 🎲✨",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🏎️ Great! Let's go! 🏎️",
+    "text": "🏎️ Wonderlik! Kom ons begin! 🏎️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Tap 'Let’s Play!' and I’ll share a simple, fun, and free activity you can do together!",
+    "text": "Klik op \"Kom ons Speel!\" en ek deel 'n eenvoudige en gratis pretaktiwiteit wat julle saam kan doen!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What should we do next?",
+    "text": "Wat sal ons volgende doen?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "Jammer, ek verstaan nie wat jy bedoel nie.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Perfect! 🌟",
+    "text": "Perfek! 🌟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sure!",
+    "text": "Beslis!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "See you next time! You can message {PLAY} whenever you would like another easy and fun play idea.",
+    "text": "Sien jou volgende keer! Jy kan 'n boodskap met die woord {PLAY} stuur wanneer jy ook al nog 'n maklike en prettige speel-idee wil hê.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I can do more than just play! 🎉 In this chat, you can also get ParentText.",
+    "text": "Ek kan meer doen as net speel! 🎉 In hierdie geselstoepassing kan jy ook ParentText kry.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "ParentText can help you improve your relationship with your child in just 5 days—totally free!",
+    "text": "ParentText kan jou help om jou verhouding met jou kind in slegs 5 dae te verbeter—geheel en al gratis!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Want to give it a try?",
+    "text": "Wil jy dit probeer?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay. If you change your mind, you can always message {PLAY} if you want another activity or {START} if you want to start the programme.",
+    "text": "Alles reg! As jy van plan verander, kan jy te eniger tyd die woord {PLAY} stuur as jy nog 'n aktiwiteit wil hê, of {START} as jy die program wil begin.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great, let's do it!",
+    "text": "Wonderlik, kom ons doen dit!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What age is your child?",
+    "text": "Hoe oud is jou kind?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You entered @results.number. Please enter a number between 0 and 17.",
+    "text": "Jy het @results.number ingetik. Tik asseblief 'n getal tussen 0 en 17 in.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You entered @results.number. This looks too old. Please enter a number between 0 and 17.",
+    "text": "Jy het @results.number ingetik. Dit lyk te oud. Tik asseblief 'n getal tussen 0 en 17 in.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.  Please enter a number between 0 and 17.",
+    "text": "Jammer, ek verstaan nie wat jy bedoel nie. Tik asseblief 'n getal tussen 0 en 17 in.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What language works best for you?",
+    "text": "Watter taal werk die beste vir jou?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Quick question for you! 🤔 What are the benefits of play?",
+    "text": "'n Vinnige vraag vir jou! 🤔 Wat is die voordele van speel?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Absolutely! Play is fun – and it also helps your child grow and supports both your mental health and your child’s.",
+    "text": "Absoluut! Speel is pret – en dit help jou kind om te groei en ondersteun beide jou en jou kind se geestesgesondheid.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Want to learn more? Complete the full survey here: {IOGT link}",
+    "text": "Wil jy meer uitvind? Voltooi die volledige vraelys hier: {IOGT link}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Yes! Play can boost your mood and reduce stress – and it also encourages your child’s development in ways that are fun for you both.",
+    "text": "Ja! Speel kan jou bui verbeter en stres verlig – en dit bevorder ook jou kind se ontwikkeling op maniere wat vir julle albei pret is.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s right! Play builds important life skills – and it also supports emotional wellbeing for both you and your child in a fun way.",
+    "text": "Dis reg! Speel bou belangrike lewensvaardighede – en dit ondersteun ook emosionele welstand vir beide jou en jou kind op 'n prettige manier.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Exactly! Play is fun, it supports mental health, and it helps your child grow – all at the same time. Everyone wins!",
+    "text": "Presies! Speel is pret, dit ondersteun geestesgesondheid, en dit help jou kind groei – alles tegelykertyd. Almal wen!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I don't understand your message.",
+    "text": "Ek verstaan nie jou boodskap nie.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Message {PLAY} to get a simple, fun activity that you can do with your child. 🤸🏾",
+    "text": "Stuur {PLAY} om 'n eenvoudige, prettige aktiwiteit te kry wat jy met jou kind kan doen. 🤸🏾",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "In this chat, you can also get ParentText. ParentText can help you improve your relationship with your child in just 5 days—totally free.",
+    "text": "In hierdie gesprek kan jy ook ParentText kry. ParentText kan jou help om jou verhouding met jou kind in slegs 5 dae te verbeter—geheel en al gratis.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Type {START} to get started!",
+    "text": "Tik {START} om te begin!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let’s Play!",
+    "text": "Kom ons Speel!",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Another fun idea, please!",
+    "text": "Nog 'n prettige idee, asseblief!",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Let's try an activity for a different age!",
+    "text": "Kom ons probeer 'n aktiwiteit vir 'n ander ouderdom!",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Learn more tips to support my child",
+    "text": "Kry meer wenke om my kind te ondersteun",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change my language",
+    "text": "Verander my taal",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Stop for today",
+    "text": "Stop vir vandag",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes",
+    "text": "Ja",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No",
+    "text": "Nee",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "English",
+    "text": "Engels",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Afrikaans",
+    "text": "Afrikaans",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "IsiXhosa",
+    "text": "IsiXhosa",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Zulu",
+    "text": "Zoeloe",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Play is fun",
+    "text": "Speel is pret",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Play supports mental health for both children and caregivers",
+    "text": "Speel ondersteun geestesgesondheid vir beide kinders en versorgers",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Play promotes a child's overall development",
+    "text": "Speel bevorder 'n kind se totale ontwikkeling",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "All of the above",
+    "text": "Al die bogenoemde",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "another fun idea, please!",
+    "text": "nog 'n prettige idee, asseblief!",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "let's try an activity for a different age!",
+    "text": "kom ons probeer 'n aktiwiteit vir 'n ander ouderdom!",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "learn more tips to support my child",
+    "text": "kry meer wenke om my kind te ondersteun",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change my language",
+    "text": "verander my taal",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "stop for today",
+    "text": "stop vir vandag",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no",
+    "text": "nee",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes",
+    "text": "ja",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "english",
+    "text": "engels",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "afrikaans",
+    "text": "afrikaans",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "isixhosa",
+    "text": "isiXhosa",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "zulu",
+    "text": "zoeloe",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "play is fun",
+    "text": "speel is pret",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "play supports mental health for both children and caregivers",
+    "text": "speel ondersteun geestesgesondheid vir beide kinders en versorgers",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "play promotes a child's overall development",
+    "text": "speel bevorder 'n kind se totale ontwikkeling",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "all of the above",
+    "text": "al die bogenoemde",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "generic",
+    "text": "generies",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "mental_health",
+    "text": "geestesgesondheid",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "health",
+    "text": "gesondheid",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "violence",
+    "text": "geweld",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "natural_disasters",
+    "text": "natuurrampe",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "drugs",
+    "text": "dwelms",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "help",
+    "text": "hulp",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "play",
+    "text": "speel",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "start",
+    "text": "begin",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]

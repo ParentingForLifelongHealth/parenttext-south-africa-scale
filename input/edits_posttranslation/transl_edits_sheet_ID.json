@@ -26,6 +26,13 @@
         "order": "0"
       },
       {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "comic_names_transl_zul",
+        "status": "released",
+        "order": "0"
+      },
+      {
         "flow_type": "flow_editing",
         "flow_name": "",
         "sheet_name": "external_references_eng",
@@ -57,6 +64,13 @@
         "flow_type": "translation_editing",
         "flow_name": "",
         "sheet_name": "referrals_transl_xho",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "referrals_transl_zul",
         "status": "released",
         "order": "1"
       },
@@ -158,6 +172,24 @@
         "node_identifier": "Regex:.*{module_name}.*",
         "original": "{module_name}",
         "language": "hau",
+        "replacement": "@results.name"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{goal_name}.*",
+        "original": "{goal_name}",
+        "language": "zul",
+        "replacement": "@results.name"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{module_name}.*",
+        "original": "{module_name}",
+        "language": "zul",
         "replacement": "@results.name"
       }
     ],
@@ -633,6 +665,242 @@
         "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 & fields.comic_names_dict_3 &fields.comic_names_dict_4)[\"TEACHER_1\"][contact.language])"
       }
     ],
+    "comic_names_transl_zul": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_MOTHER}.*",
+        "original": "{F1_MOTHER}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 & fields.comic_names_dict_3 &fields.comic_names_dict_4)[\"F1_MOTHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_FATHER}.*",
+        "original": "{F1_FATHER}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"F1_FATHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_SON_18}.*",
+        "original": "{F1_SON_18}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 & fields.comic_names_dict_3 &fields.comic_names_dict_4)[\"F1_SON_18\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_16}.*",
+        "original": "{F1_DAUGHTER_16}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 & fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"F1_DAUGHTER_16\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_13}.*",
+        "original": "{F1_DAUGHTER_13}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"F1_DAUGHTER_13\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_6}.*",
+        "original": "{F1_DAUGHTER_6}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"F1_DAUGHTER_6\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_2}.*",
+        "original": "{F1_DAUGHTER_2}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 & fields.comic_names_dict_3 &fields.comic_names_dict_4)[\"F1_DAUGHTER_2\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_SON_5}.*",
+        "original": "{F1_SON_5}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"F1_SON_5\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_GRANDMOTHER}.*",
+        "original": "{F2_GRANDMOTHER}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"F2_GRANDMOTHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_GRANDFATHER}.*",
+        "original": "{F2_GRANDFATHER}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"F2_GRANDFATHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_DAUGHTER_17}.*",
+        "original": "{F2_DAUGHTER_17}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"F2_DAUGHTER_17\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_SON_15}.*",
+        "original": "{F2_SON_15}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"F2_SON_15\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_SON_8}.*",
+        "original": "{F2_SON_8}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"F2_SON_8\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_DAUGHTER_3}.*",
+        "original": "{F2_DAUGHTER_3}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"F2_DAUGHTER_3\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_MOTHER}.*",
+        "original": "{F3_MOTHER}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"F3_MOTHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_UNCLE}.*",
+        "original": "{F3_UNCLE}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"F3_UNCLE\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_DAUGHTER_12}.*",
+        "original": "{F3_DAUGHTER_12}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 & fields.comic_names_dict_3 &fields.comic_names_dict_4)[\"F3_DAUGHTER_12\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_DAUGHTER_7}.*",
+        "original": "{F3_DAUGHTER_7}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"F3_DAUGHTER_7\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_SON_4}.*",
+        "original": "{F3_SON_4}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"F3_SON_4\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{FRIEND_FEMALE_1}.*",
+        "original": "{FRIEND_FEMALE_1}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"FRIEND_FEMALE_1\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{FRIEND_FEMALE_2}.*",
+        "original": "{FRIEND_FEMALE_2}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"FRIEND_FEMALE_2\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MAN_IN_CAR}.*",
+        "original": "{MAN_IN_CAR}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"MAN_IN_CAR\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{BOYFRIEND}.*",
+        "original": "{BOYFRIEND}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"BOYFRIEND\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MAN_THREAT}.*",
+        "original": "{MAN_THREAT}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"MAN_THREAT\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{GIRLFRIEND}.*",
+        "original": "{GIRLFRIEND}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2& fields.comic_names_dict_3 &fields.comic_names_dict_4 )[\"GIRLFRIEND\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{TEACHER_1}.*",
+        "original": "{TEACHER_1}",
+        "language": "zul",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 & fields.comic_names_dict_3 &fields.comic_names_dict_4)[\"TEACHER_1\"][contact.language])"
+      }
+    ],
     "comic_names_transl_xho": [
       {
         "type_of_edit": "replace_bit_of_text",
@@ -883,28 +1151,10 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{WhatsApp SWIFT line support}.*",
-        "change": "{WhatsApp SWIFT line support}",
+        "node_identifier": "Regex:.*{IOGT link}.*",
+        "change": "{IOGT link}",
         "condition_var": "",
-        "category": "+27 64 065 4491"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{ret_consent_link}.*",
-        "change": "{ret_consent_link}",
-        "condition_var": "",
-        "category": "xxxx"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{parentline number}.*",
-        "change": "{parentline number}",
-        "condition_var": "",
-        "category": "087 813 4290"
+        "category": "{IOGT link}"
       }
     ],
     "external_references_transl": [
@@ -930,55 +1180,37 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{WhatsApp SWIFT line support}.*",
-        "original": "{WhatsApp SWIFT line support}",
+        "node_identifier": "Regex:.*{share link}.*",
+        "original": "{share link}",
+        "language": "zul",
+        "replacement": "https://wa.me/27832838620/?text=share"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{IOGT link}.*",
+        "original": "{IOGT link}",
         "language": "afr",
-        "replacement": "+27 64 065 4491"
+        "replacement": "{IOGT link}"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{WhatsApp SWIFT line support}.*",
-        "original": "{WhatsApp SWIFT line support}",
+        "node_identifier": "Regex:.*{IOGT link}.*",
+        "original": "{IOGT link}",
         "language": "hau",
-        "replacement": "+27 64 065 4491"
+        "replacement": "{IOGT link}"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{ret_consent_link}.*",
-        "original": "{ret_consent_link}",
-        "language": "afr",
-        "replacement": "xxxx"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{ret_consent_link}.*",
-        "original": "{ret_consent_link}",
-        "language": "hau",
-        "replacement": "xxxx"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{parentline number}.*",
-        "original": "{parentline number}",
-        "language": "afr",
-        "replacement": "087 813 4290"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{parentline number}.*",
-        "original": "{parentline number}",
-        "language": "hau",
-        "replacement": "087 813 4290"
+        "node_identifier": "Regex:.*{IOGT link}.*",
+        "original": "{IOGT link}",
+        "language": "zul",
+        "replacement": "{IOGT link}"
       }
     ],
     "referrals_eng": [
@@ -1080,6 +1312,24 @@
         "change": "{disability resources}",
         "condition_var": "",
         "category": "Contact your local DSD office or go to: https://www.westerncape.gov.za/service/persons-disabilities-programme\n\nFor all disabilities: WhatsApp 081 517 8757 / https://wcapd.org.za/contact-us/ \n\nAutism SA: www.aut2know.co.za\n\nBlindSA helpline: 060 967 0258"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 1}.*",
+        "change": "{development resources 1}",
+        "condition_var": "",
+        "category": "Child Welfare Nespruit: 013 753 3330 childwelfarenel@mweb.co.za; 10 Ehmke Street, Nelspruit\n\nHealing Wings: +27 72 140 6081 258 Address: Blyfstanboschspruit, Houtbosloop, Schagen,1206 Email: help@healingwings.co.za https://www.healingwings.co.za/blog/\n\nHealing Wings Support Group in Nelspruit: Christian Action for Independence (CAD): carine.classen@gmail.com, SANCA Boardroom, Hope Str, Nelspruit SANCA Nelspruit: 013 75 24376 \n\nChildline South Africa: https://www.childlinesa.org.za/resource-center-category/for-parents/ https://www.childlinesa.org.za/resource-center-category/for-teens/ https://www.childlinesa.org.za/wp-content/uploads/guide-to-parenting.pdf\n\nParentingHub: https://parentinghub.co.za/tween-teen/\n\nSouth African College of Applied Psychology (SACAP): https://www.sacap.edu.za/blog/applied-psychology/teen-substance-abuse/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 2}.*",
+        "change": "{development resources 2}",
+        "condition_var": "",
+        "category": "Mpumalanga Addition Rehabilitation Centres (MARC): 017 200 1119\n\nZoe Pregnancy Center: 083 985 3314\n\nFamilies South Africa (FAMSA): http://www.famsaorg.mzansiitsolutions.co.za/; 011 975 7106/7\n\nTEARS Foundation: Website: http://www.tears.co.za/(link is external) Free SMS helpline: *134*7355# Tel: 010 590 5920 Email: info@tears.co.za\nTEARS: What to do if you are raped brochure: https://tears.co.za/what-to-do-if-you-are-raped/\n\nWHO African Region: https://www.afro.who.int/publications/sexual-and-reproductive-health-fact-sheet https://www.afro.who.int/health-topics/sexual-and-reproductive-health"
       }
     ],
     "referrals_transl_xho": [
@@ -1090,7 +1340,7 @@
         "node_identifier": "Regex:.*{generic referrals}.*",
         "original": "{generic referrals}",
         "language": "hau",
-        "replacement": "\n\n\n\n\n"
+        "replacement": "Amapolisa (SAPS): 10111\n\nUmnxeba kaxakeka: 112\n\nInqwelo yezigulana: 10177\n\nIsebe lomlilo: 10177\n\nCrime Stop: 0860 010 111"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -1099,7 +1349,7 @@
         "node_identifier": "Regex:.*{mental_health referrals}.*",
         "original": "{mental_health referrals}",
         "language": "hau",
-        "replacement": "\n\n"
+        "replacement": "SADAG (zonke iindidi zenkxaso zempilo yengqondo):\n0800 567 567 / www.sadag.org\n\nLifeline (Ulwaluleko lwengqondo): \n0861 322 322 or WhatsApp call: 065 989 9238\n\nChildline: 116"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -1108,7 +1358,7 @@
         "node_identifier": "Regex:.*{health referrals}.*",
         "original": "{health referrals}",
         "language": "hau",
-        "replacement": "\n\n\n\n\n\n"
+        "replacement": "Ugawulayo: 0800 012 322\n\nIsifo somhlaza: 0800 226 622\n\nUcwangciso losapho, ukukhupha isusu kunye nempilo yezesondo:\n0800 117 785 (Marie Stopes SA) / 086 132 2322 (Lifeline) / https://www.westerncape.gov.za/service/termination-pregnancy-top\n \nImpilo yezesondo yamadoda (kuquka ulwaluko): Buza kumongikazi kwikliniki ekufutshane nawe"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -1117,7 +1367,7 @@
         "node_identifier": "Regex:.*{violence referrals}.*",
         "original": "{violence referrals}",
         "language": "hau",
-        "replacement": ""
+        "replacement": "Crime Stop: 0860 010 111\n\nChildline: 116\n\nGender Based Violence (GBV) 24/7: 0800 428 428 okanye thumela u- please call me ku *120*7867#\n\nThuthuzela Clinic (GBV/ukudlwengulwa/ukuxhatshazwa ngokwezesondo): fumana ekufuphi kuwe ku https://www.gov.za/TCC\n \nSafeline (umnxeba woncedo wabasindileyo abangamadoda): 0800 035 553\n\nInkxaso yembacu (refugee): WhatsApp 063 656 5080 (abantwana) or 078 594 5591 (amalungelo embhacu)"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -1126,7 +1376,7 @@
         "node_identifier": "Regex:.*{natural_disasters referrals}.*",
         "original": "{natural_disasters referrals}",
         "language": "hau",
-        "replacement": ""
+        "replacement": "Unxeba kaxakeka: 112\n\nInqwelo yezigulana kunye neSebe lomlilo: 10177"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -1135,7 +1385,7 @@
         "node_identifier": "Regex:.*{drugs referrals}.*",
         "original": "{drugs referrals}",
         "language": "hau",
-        "replacement": " \n\n\n\n\n\n"
+        "replacement": "SANCA: 011 892 3829 okanye fowuna ngo WhatsApp  076 535 1701 / www.sancanational.info\n\nIsebe Lezophuhliso Loluntu (DSD) 24/7: 0800 121 314 okanye thumela i- SMS ku 32312\n\nWhatsApp Umnxeba wokuncokola: 087 163 2025 (8am-5pm)\n\nAl-Anon (yeyentsapho ezichatshazelwayo butywala): 086 125 2666\n\nNar-Anon (yeyentsapho ezichatshazelwayo ziziyobisi): 088 129 6791"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -1144,7 +1394,7 @@
         "node_identifier": "Regex:.*{family referrals}.*",
         "original": "{family referrals}",
         "language": "hau",
-        "replacement": ""
+        "replacement": "Isebe Lezophuhliso Loluntu umnxeba oshushu (weekdays 8am-4pm): 0800 220 250\n\nACVV: www.acvv.org.za\n\nChild Welfare: 087 822 1516 / 021 638 3127 (Cape Town)\n\nBadisa: www.badisa.org.za\n\nFAMSA Western Cape: 067 082 1567 / www.famsawc.org.za/our-offices\n\nChildline: 116 / www.childlinesa.org.za\n\nUkukhathalela abantu abadala:  I-ofisi ye DSD ekufitshane nawe nayo ingakunceda ngoku! (Call 0800 220 250, phakathi evekini 8am-4pm)"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -1153,7 +1403,7 @@
         "node_identifier": "Regex:.*{legal_help referrals}.*",
         "original": "{legal_help referrals}",
         "language": "hau",
-        "replacement": ""
+        "replacement": "Black Sash umnxeba woncedo: Fowuna/WhatsApp 072 663 3739 or 063 610 1865 \n\nLegal Aid: 0800 110 110 okanye thumela  u- please call me ku: 079 835 7179 \n\nUCT law clinic: WhatsApp 068 350 5920\n\nSASSA: www.sassa.gov.za Cofa ithebhu ethi 'izibonelelo zentlalontle' ukuze ubone ukuba yeyiphi inkxaso onokuyifumana!\n\nRefugee law clinic: WhatsApp 072 499 8146 (ubume) or \n078 594 5591 (amalungelo)"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -1162,7 +1412,7 @@
         "node_identifier": "Regex:.*{lgbtqia referrals}.*",
         "original": "{lgbtqia referrals}",
         "language": "hau",
-        "replacement": ""
+        "replacement": "SADAG Umnxeba woncedo: 0800 567 567 / Amaqela enkxaso akwi-Intanethi: www.sadag.org \n\nGender Based Violence (GBV) 24/7: 0800 428 428 okanye thumela  u- please call me ku *120*7867#"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -1171,7 +1421,7 @@
         "node_identifier": "Regex:.*{school referrals}.*",
         "original": "{school referrals}",
         "language": "hau",
-        "replacement": ""
+        "replacement": "SA school helpline: 0800 202 933\n\nSafe Schools: 0800 456 647\n\nWestern Cape schools: 0861 819 919 "
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -1180,7 +1430,144 @@
         "node_identifier": "Regex:.*{disability resources}.*",
         "original": "{disability resources}",
         "language": "hau",
-        "replacement": ""
+        "replacement": "Qhagamshelana ne ofisi ye DSD ekufutshane nawe okanye uye ku: https://www.westerncape.gov.za/service/persons-disabilities-programme\n\nZonke ezenkubazeko: WhatsApp 081 517 8757 / https://wcapd.org.za/contact-us/ \n\nAutism SA: www.aut2know.co.za\n\nBlindSA umnxeba woncedo: 060 967 0258"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 1}.*",
+        "original": "{development resources 1}",
+        "language": "hau",
+        "replacement": "Child Welfare Nespruit: 013 753 3330 childwelfarenel@mweb.co.za; 10 Ehmke Street, Nelspruit\n\nHealing Wings: +27 72 140 6081 258 Address: Blyfstanboschspruit, Houtbosloop, Schagen,1206 Email: help@healingwings.co.za https://www.healingwings.co.za/blog/\n\nHealing Wings Support Group in Nelspruit: Christian Action for Independence (CAD): carine.classen@gmail.com, SANCA Boardroom, Hope Str, Nelspruit SANCA Nelspruit: 013 75 24376 \n\nChildline South Africa: https://www.childlinesa.org.za/resource-center-category/for-parents/ https://www.childlinesa.org.za/resource-center-category/for-teens/ https://www.childlinesa.org.za/wp-content/uploads/guide-to-parenting.pdf\n\nParentingHub: https://parentinghub.co.za/tween-teen/\n\nSouth African College of Applied Psychology (SACAP): https://www.sacap.edu.za/blog/applied-psychology/teen-substance-abuse/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 2}.*",
+        "original": "{development resources 2}",
+        "language": "hau",
+        "replacement": "Mpumalanga Addition Rehabilitation Centres (MARC): 017 200 1119\n\nZoe Pregnancy Center: 083 985 3314\n\nFamilies South Africa (FAMSA): http://www.famsaorg.mzansiitsolutions.co.za/; 011 975 7106/7\n\nTEARS Foundation: Website: http://www.tears.co.za/(link is external) Free SMS helpline: *134*7355# Tel: 010 590 5920 Email: info@tears.co.za\nTEARS: What to do if you are raped brochure: https://tears.co.za/what-to-do-if-you-are-raped/\n\nWHO African Region: https://www.afro.who.int/publications/sexual-and-reproductive-health-fact-sheet https://www.afro.who.int/health-topics/sexual-and-reproductive-health"
+      }
+    ],
+    "referrals_transl_zul": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic referrals}.*",
+        "original": "{generic referrals}",
+        "language": "zul",
+        "replacement": "Police (SAPS): 10111\n\nEmergency Line: 112\n\nAmbulance: 10177\n\nFire Department: 10177\n\nCrime Stop: 0860 010 111"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health referrals}.*",
+        "original": "{mental_health referrals}",
+        "language": "zul",
+        "replacement": "SADAG (all types of mental health support):\n0800 567 567 / www.sadag.org\n\nLifeline (Counselling): \n0861 322 322 or WhatsApp call: 065 989 9238\n\nChildline 116"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health referrals}.*",
+        "original": "{health referrals}",
+        "language": "zul",
+        "replacement": "AIDS: 0800 012 322\n\nCancer: 0800 226 622\n\nFamily planning, abortion and sexual health: \n0800 117 785 (Marie Stopes SA) / 086 132 2322 (Lifeline) / https://www.westerncape.gov.za/service/termination-pregnancy-top\n \nMen's sexual health (including circumcision): Ask a sister at your local clinic"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals}.*",
+        "original": "{violence referrals}",
+        "language": "zul",
+        "replacement": "Crime Stop: 0860 010 111\n\nChildline: 116\n\nGender Based Violence (GBV) 24/7: 0800 428 428 or send a please call me to *120*7867#\n\nThuthuzela Clinic (GBV/rape/sexual abuse): find your nearest one at https://www.gov.za/TCC\n \nSafeline (male survivor helpline): 0800 035 553\n\nRefugee support: WhatsApp 063 656 5080 (for children) or 078 594 5591 (for refugee rights)"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{natural_disasters referrals}.*",
+        "original": "{natural_disasters referrals}",
+        "language": "zul",
+        "replacement": "South Africa National Emergency Line: 112\n\nAmbulance and Fire Department: 10177"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{drugs referrals}.*",
+        "original": "{drugs referrals}",
+        "language": "zul",
+        "replacement": "SANCA: 011 892 3829 or WhatsApp call 076 535 1701 / www.sancanational.info\n\nDepartment of Social Development (DSD) 24/7: 0800 121 314 or send a SMS to 32312\n\nWhatsApp Chat Line: 087 163 2025 (8am-5pm)\n\nAl-Anon (for families affected by alcohol): 086 125 2666\n\nNar-Anon (for families affected by drugs): 088 129 6791"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{family referrals}.*",
+        "original": "{family referrals}",
+        "language": "zul",
+        "replacement": "Department of Social Development hotline (weekdays 8am-4pm): 0800 220 250\n\nACVV: www.acvv.org.za\n\nChild Welfare: 087 822 1516 / 021 638 3127 (Cape Town)\n\nBadisa: www.badisa.org.za\n\nFAMSA Western Cape: 067 082 1567 / www.famsawc.org.za/our-offices\n\nChildline: 116 / www.childlinesa.org.za\n\nCaring for the aged: Your local DSD office can assist with this as well! (Call 0800 220 250, weekdays 8am-4pm)"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{legal_help referrals}.*",
+        "original": "{legal_help referrals}",
+        "language": "zul",
+        "replacement": "Black sash helpline: Call/WhatsApp 072 663 3739 or 063 610 1865 \n\nLegal Aid: 0800 110 110 or send a please call me to: 079 835 7179 \n\nUCT law clinic: WhatsApp 068 350 5920\n\nSASSA: www.sassa.gov.za Click the 'social grants' tab to see what support you qualify for!\n\nRefugee law clinic: WhatsApp 072 499 8146 (for status) or \n078 594 5591 (for rights)"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{lgbtqia referrals}.*",
+        "original": "{lgbtqia referrals}",
+        "language": "zul",
+        "replacement": "SADAG Helpline: 0800 567 567 / Online support groups: www.sadag.org \n\nGender Based Violence (GBV) 24/7: 0800 428 428 or send a please call me to *120*7867#"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{school referrals}.*",
+        "original": "{school referrals}",
+        "language": "zul",
+        "replacement": "SA school helpline: 0800 202 933\n\nSafe Schools: 0800 456 647\n\nWestern Cape schools: 0861 819 919 "
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{disability resources}.*",
+        "original": "{disability resources}",
+        "language": "zul",
+        "replacement": "Contact your local DSD office or go to: https://www.westerncape.gov.za/service/persons-disabilities-programme\n\nFor all disabilities: WhatsApp 081 517 8757 / https://wcapd.org.za/contact-us/ \n\nAutism SA: www.aut2know.co.za\n\nBlindSA helpline: 060 967 0258"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 1}.*",
+        "original": "{development resources 1}",
+        "language": "zul",
+        "replacement": "Child Welfare Nespruit: 013 753 3330 childwelfarenel@mweb.co.za; 10 Ehmke Street, Nelspruit\n\nHealing Wings: +27 72 140 6081 258 Address: Blyfstanboschspruit, Houtbosloop, Schagen,1206 Email: help@healingwings.co.za https://www.healingwings.co.za/blog/\n\nHealing Wings Support Group in Nelspruit: Christian Action for Independence (CAD): carine.classen@gmail.com, SANCA Boardroom, Hope Str, Nelspruit SANCA Nelspruit: 013 75 24376 \n\nChildline South Africa: https://www.childlinesa.org.za/resource-center-category/for-parents/ https://www.childlinesa.org.za/resource-center-category/for-teens/ https://www.childlinesa.org.za/wp-content/uploads/guide-to-parenting.pdf\n\nParentingHub: https://parentinghub.co.za/tween-teen/\n\nSouth African College of Applied Psychology (SACAP): https://www.sacap.edu.za/blog/applied-psychology/teen-substance-abuse/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 2}.*",
+        "original": "{development resources 2}",
+        "language": "zul",
+        "replacement": "Mpumalanga Addition Rehabilitation Centres (MARC): 017 200 1119\n\nZoe Pregnancy Center: 083 985 3314\n\nFamilies South Africa (FAMSA): http://www.famsaorg.mzansiitsolutions.co.za/; 011 975 7106/7\n\nTEARS Foundation: Website: http://www.tears.co.za/(link is external) Free SMS helpline: *134*7355# Tel: 010 590 5920 Email: info@tears.co.za\nTEARS: What to do if you are raped brochure: https://tears.co.za/what-to-do-if-you-are-raped/\n\nWHO African Region: https://www.afro.who.int/publications/sexual-and-reproductive-health-fact-sheet https://www.afro.who.int/health-topics/sexual-and-reproductive-health"
       }
     ],
     "referrals_transl_afr": [
@@ -1282,6 +1669,24 @@
         "original": "{disability resources}",
         "language": "afr",
         "replacement": "Kontak jou plaaslike Departement van Maatskaplike Ontwikkeling kantaar of gaan na: https://www.westerncape.gov.za/service/persons-disabilities-programme\n\nVir alle gestremdhede: WhatsApp 081 517 8757 / https://wcapd.org.za/contact-us/ \n\nAutism SA: www.aut2know.co.za\n\nBlindSA hulplyn: 060 967 0258"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 1}.*",
+        "original": "{development resources 1}",
+        "language": "afr",
+        "replacement": "Child Welfare Nespruit: 013 753 3330 childwelfarenel@mweb.co.za; 10 Ehmke Street, Nelspruit\n\nHealing Wings: +27 72 140 6081 258 Address: Blyfstanboschspruit, Houtbosloop, Schagen,1206 Email: help@healingwings.co.za https://www.healingwings.co.za/blog/\n\nHealing Wings Support Group in Nelspruit: Christian Action for Independence (CAD): carine.classen@gmail.com, SANCA Boardroom, Hope Str, Nelspruit SANCA Nelspruit: 013 75 24376 \n\nChildline South Africa: https://www.childlinesa.org.za/resource-center-category/for-parents/ https://www.childlinesa.org.za/resource-center-category/for-teens/ https://www.childlinesa.org.za/wp-content/uploads/guide-to-parenting.pdf\n\nParentingHub: https://parentinghub.co.za/tween-teen/\n\nSouth African College of Applied Psychology (SACAP): https://www.sacap.edu.za/blog/applied-psychology/teen-substance-abuse/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 2}.*",
+        "original": "{development resources 2}",
+        "language": "afr",
+        "replacement": "Mpumalanga Addition Rehabilitation Centres (MARC): 017 200 1119\n\nZoe Pregnancy Center: 083 985 3314\n\nFamilies South Africa (FAMSA): http://www.famsaorg.mzansiitsolutions.co.za/; 011 975 7106/7\n\nTEARS Foundation: Website: http://www.tears.co.za/(link is external) Free SMS helpline: *134*7355# Tel: 010 590 5920 Email: info@tears.co.za\nTEARS: What to do if you are raped brochure: https://tears.co.za/what-to-do-if-you-are-raped/\n\nWHO African Region: https://www.afro.who.int/publications/sexual-and-reproductive-health-fact-sheet https://www.afro.who.int/health-topics/sexual-and-reproductive-health"
       }
     ],
     "triggers_eng": [
@@ -1329,6 +1734,24 @@
         "change": "{PREVENT}",
         "condition_var": "",
         "category": "PREVENT"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{START}.*",
+        "change": "{START}",
+        "condition_var": "",
+        "category": "PARENTTEXT"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{GROW}.*",
+        "change": "{GROW}",
+        "condition_var": "",
+        "category": "GROW"
       }
     ],
     "triggers_transl": [
@@ -1357,7 +1780,7 @@
         "node_identifier": "Regex:.*{PLAY}.*",
         "original": "{PLAY}",
         "language": "afr",
-        "replacement": "SPEEL"
+        "replacement": "PLAY"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -1376,6 +1799,24 @@
         "original": "{PREVENT}",
         "language": "afr",
         "replacement": "VOORKOM"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{START}.*",
+        "original": "{START}",
+        "language": "afr",
+        "replacement": "PARENTTEXT"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{GROW}.*",
+        "original": "{GROW}",
+        "language": "afr",
+        "replacement": "GROW"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -1402,7 +1843,7 @@
         "node_identifier": "Regex:.*{PLAY}.*",
         "original": "{PLAY}",
         "language": "hau",
-        "replacement": "DLALA"
+        "replacement": "PLAY"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -1421,6 +1862,87 @@
         "original": "{PREVENT}",
         "language": "hau",
         "replacement": "THINTELA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{START}.*",
+        "original": "{START}",
+        "language": "hau",
+        "replacement": "PARENTTEXT"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{GROW}.*",
+        "original": "{GROW}",
+        "language": "hau",
+        "replacement": "GROW"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{HELP}.*",
+        "original": "{HELP}",
+        "language": "zul",
+        "replacement": "USIZO"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MENU}.*",
+        "original": "{MENU}",
+        "language": "zul",
+        "replacement": "IMENYU"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PLAY}.*",
+        "original": "{PLAY}",
+        "language": "zul",
+        "replacement": "PLAY"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{STOP}.*",
+        "original": "{STOP}",
+        "language": "zul",
+        "replacement": "YIMA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PREVENT}.*",
+        "original": "{PREVENT}",
+        "language": "zul",
+        "replacement": "PREVENT"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{START}.*",
+        "original": "{START}",
+        "language": "zul",
+        "replacement": "PARENTTEXT"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{GROW}.*",
+        "original": "{GROW}",
+        "language": "zul",
+        "replacement": "KHULA"
       }
     ],
     "wa_bold_eng": [
@@ -1451,6 +1973,15 @@
         "node_identifier": "Regex:.*",
         "original": "**",
         "language": "hau",
+        "replacement": "*"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "original": "**",
+        "language": "zul",
         "replacement": "*"
       }
     ]
