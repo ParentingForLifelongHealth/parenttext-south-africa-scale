@@ -198,6 +198,21 @@
         "tags.1": "",
         "tags.2": "",
         "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "get_certificate_username_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
       }
     ],
     "congrats_data": [
@@ -253,6 +268,12 @@
       {
         "ID": "first_selection_intro",
         "msg": "NA",
+        "next_button_option": "",
+        "metadata.description": ""
+      },
+      {
+        "ID": "parenttext_notification",
+        "msg": "Want to improve your relationship with your child in just 5 days?\n\nSend PARENTTEXT to this number and get FREE daily practical tips.",
         "next_button_option": "",
         "metadata.description": ""
       }
@@ -333,12 +354,12 @@
         "n_max_opt": "10",
         "msg_no_options.message": "-",
         "msg_no_options.image": "",
-        "msg_one_option.message": "Let's start with the course ",
+        "msg_one_option.message": "Let's start with your final course:",
         "msg_one_option.question": "",
         "msg_one_option.affirmative": "",
         "msg_one_option.negative": "",
         "msg_one_option.no_message": "",
-        "msg_multiple_options": "-",
+        "msg_multiple_options": "Which course would you like to complete next?",
         "extra_option": "",
         "extra_message": "",
         "update_var": "curr goal"
@@ -350,12 +371,12 @@
         "n_max_opt": "10",
         "msg_no_options.message": "-",
         "msg_no_options.image": "",
-        "msg_one_option.message": "Let's start with the course ",
+        "msg_one_option.message": "Let's start with your final course:",
         "msg_one_option.question": "",
         "msg_one_option.affirmative": "",
         "msg_one_option.negative": "",
         "msg_one_option.no_message": "",
-        "msg_multiple_options": "-",
+        "msg_multiple_options": "Which course would you like to complete next?",
         "extra_option": "",
         "extra_message": "",
         "update_var": "curr goal"
@@ -365,7 +386,7 @@
     "interaction_data": [
       {
         "ID": "unfinished_onboarding",
-        "question": "ParentText has begun. You are just 5 days away from earning your parenting certificate. Are you ready to complete your registration and get started?\n\nPress a number on your keypad:\n1. Yes\n2. Remind me tomorrow",
+        "question": "ParentText has begun. You are just 5 days away from earning your parenting certificate. Are you ready to complete your registration and get started?\n\nSelect one of the options below:\n1. Yes\n2. Remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -380,7 +401,7 @@
       },
       {
         "ID": "complete_start_module",
-        "question": "You’re off track! Do you want to complete your previous unifinished lesson or start a new lesson?\n\nPress a number on your keypad:\n1. Complete a previous lesson\n2. Start a new lesson",
+        "question": "It seems like you've got some catching up to do! Do you want to complete your previous unfinished lesson or start a new lesson?\n\nSelect one of the options below:\n1. Complete a previous lesson\n2. Start a new lesson",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -440,9 +461,9 @@
       },
       {
         "ID": "first_module_intro",
-        "question": "It's time to get started on ParentText. Are you ready? \n\nPress a number on your keypad: \n1. Yes!\n2. Remind me tomorrow",
-        "webhook_template_name": "",
-        "webhook_template_args": "",
+        "question": "It’s time to get started on your course, @results.name. Are you ready?\n\nSelect one of the options below:\n1. Yes!\n2. Remind me tomorrow",
+        "webhook_template_name": "use_webhook_get_name",
+        "webhook_template_args": "goal;fields.curr_goal;webhook_settings",
         "options.1.text": "1",
         "options.1.proceed_result_value": "yes",
         "options.1.stop_message": "",
@@ -450,12 +471,12 @@
         "options.2.proceed_result_value": "",
         "options.2.stop_message": "Great, see you tomorrow!",
         "wa_template_ID": "first_module_intro",
-        "wa_template_vars.1": "",
+        "wa_template_vars.1": "@results.name",
         "wa_template_vars.2": ""
       },
       {
         "ID": "daily_interaction",
-        "question": "I've got another lesson ready for you! Are you ready?\n\nPress a number on your keypad:\n1. Yes\n2. No, remind me tomorrow",
+        "question": "We've got another lesson ready for you! Are you ready?\n\nSelect one of the options below:\n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -470,7 +491,7 @@
       },
       {
         "ID": "select_goal",
-        "question": "I've got another lesson ready for you! Are you ready?\n\nPress a number on your keypad:\n1. Yes\n2. No, remind me tomorrow",
+        "question": "We've got another lesson ready for you! Are you ready?\n\nSelect one of the options below:\n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -488,7 +509,7 @@
       {
         "ID": "timed_programme",
         "activity_handler_flow": "activity_handler",
-        "offer_msg": "What would you like to do next?",
+        "offer_msg": "We'll continue the course tomorrow. Is there anything else you'd like to do today?",
         "accept.child": "Give me an idea for 1-on-1 time with my child",
         "accept.teen": "Give me an idea for 1-on-1 time with my teen",
         "accept.baby": "NA",
@@ -496,6 +517,7 @@
         "other_flow": "referral_path - referral_more_parenting_help",
         "refuse": "I’m done for today",
         "refuse_msg": "Great, see you tomorrow!",
+        "refuse_flow": "",
         "next_offer_msg": "What would you like to do?",
         "next_accept": "View another activity idea",
         "next_refuse": "Continue my progress tomorrow",
@@ -508,7 +530,7 @@
       {
         "ID": "demo",
         "activity_handler_flow": "activity_handler",
-        "offer_msg": "What would you like to do next?",
+        "offer_msg": "We'll continue the course tomorrow. Is there anything else you'd like to do today?",
         "accept.child": "Give me an idea for 1-on-1 time with my child",
         "accept.teen": "Give me an idea for 1-on-1 time with my teen",
         "accept.baby": "NA",
@@ -516,6 +538,7 @@
         "other_flow": "referral_path - referral_more_parenting_help",
         "refuse": "I’m done for today",
         "refuse_msg": "Great, see you tomorrow!",
+        "refuse_flow": "",
         "next_offer_msg": "What would you like to do?",
         "next_accept": "View another activity idea",
         "next_refuse": "Continue my progress tomorrow",
@@ -536,6 +559,7 @@
         "other_flow": "",
         "refuse": "",
         "refuse_msg": "",
+        "refuse_flow": "",
         "next_offer_msg": "What would you like to do?",
         "next_accept": "View another activity idea",
         "next_refuse": "Exit menu",
@@ -788,6 +812,24 @@
         "ID": "farewell",
         "msg": "",
         "metadata.description": ""
+      }
+    ],
+    "get_certificate_username_data": [
+      {
+        "ID": "congrats",
+        "msg": "🎉You did it!🎉Congratulations for completing your first course!"
+      },
+      {
+        "ID": "confirm",
+        "msg": "The name you would like to have on your completion certificate is @fields.certificate_name. Is that correct?"
+      },
+      {
+        "ID": "correct_name_opt",
+        "msg": "Yes"
+      },
+      {
+        "ID": "wrong_name_opt",
+        "msg": "No"
       }
     ]
   }
