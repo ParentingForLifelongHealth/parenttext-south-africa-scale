@@ -274,7 +274,7 @@
       {
         "ID": "parenttext_notification",
         "msg": "Want to improve your relationship with your child in just 5 days?\n\nSend PARENTTEXT to this number and get FREE daily practical tips.",
-        "next_button_option": "",
+        "next_button_option": "PARENTTEXT",
         "metadata.description": ""
       }
     ],
@@ -594,7 +594,9 @@
         "options.8.text": "",
         "options.8.flow": "",
         "options.9.text": "",
-        "options.9.flow": ""
+        "options.9.flow": "",
+        "wa_template_ID": "",
+        "wa_template_vars": ""
       },
       {
         "ID": "referral_3_day_inactivity",
@@ -619,7 +621,9 @@
         "options.8.text": "",
         "options.8.flow": "",
         "options.9.text": "",
-        "options.9.flow": ""
+        "options.9.flow": "",
+        "wa_template_ID": "no_response",
+        "wa_template_vars": ""
       },
       {
         "ID": "referral_no_time",
@@ -644,7 +648,9 @@
         "options.8.text": "",
         "options.8.flow": "",
         "options.9.text": "",
-        "options.9.flow": ""
+        "options.9.flow": "",
+        "wa_template_ID": "",
+        "wa_template_vars": ""
       },
       {
         "ID": "referral_ptext_not_helpful",
@@ -669,7 +675,9 @@
         "options.8.text": "",
         "options.8.flow": "",
         "options.9.text": "",
-        "options.9.flow": ""
+        "options.9.flow": "",
+        "wa_template_ID": "",
+        "wa_template_vars": ""
       },
       {
         "ID": "referral_behaviour",
@@ -694,7 +702,9 @@
         "options.8.text": "",
         "options.8.flow": "",
         "options.9.text": "",
-        "options.9.flow": ""
+        "options.9.flow": "",
+        "wa_template_ID": "",
+        "wa_template_vars": ""
       }
     ],
     "feedback_data": [
