@@ -2564,7 +2564,8 @@
         "child_gender": "male|female",
         "name.eng": "Spend One-on-One Time with My Child",
         "name.afr": "Spandeer Een-tot-Een Tyd saam met my Kind",
-        "name.hau": "Ukuchitha Ixesha Kunye Nomntana Wam Sisodwa"
+        "name.hau": "Ukuchitha Ixesha Kunye Nomntana Wam Sisodwa",
+        "name.zul": "Ukuchitha Isikhathi Esikhethekile Nomntwana Wami"
       },
       {
         "ID": "give_praise_yc",
@@ -2574,7 +2575,8 @@
         "child_gender": "male|female",
         "name.eng": "Giving Praise",
         "name.afr": "Om te Prys",
-        "name.hau": "Ukuncoma"
+        "name.hau": "Ukuncoma",
+        "name.zul": "Ukuncoma"
       },
       {
         "ID": "routines_yc",
@@ -2584,7 +2586,8 @@
         "child_gender": "male|female",
         "name.eng": "Creating a Routine for One-on-One Time",
         "name.afr": "Skep 'n Roetine vir Een-tot-Een Tyd",
-        "name.hau": "Yakha Inkqubo Yemihla Ngemihla Yexesha Kunye Nomntana Wam Sisodwa"
+        "name.hau": "Yakha Inkqubo Yemihla Ngemihla Yexesha Kunye Nomntana Wam Sisodwa",
+        "name.zul": "Ukwakha Uhlelo Lokuba Nesikhathi Esikhethekile"
       },
       {
         "ID": "feelings_yc",
@@ -2594,7 +2597,8 @@
         "child_gender": "male|female",
         "name.eng": "Noticing Feelings During One-on-One Time",
         "name.afr": "Let op na Gevoelens Tydens Een-tot-Een Tyd",
-        "name.hau": "Qaphela Imvakalelo Ngelixa Ixesha Kunye Nomntana Wam Sisodwa"
+        "name.hau": "Qaphela Imvakalelo Ngelixa Ixesha Kunye Nomntana Wam Sisodwa",
+        "name.zul": "Ukuqaphela Imizwa Kules'khathi Esikhethekile"
       },
       {
         "ID": "calm_yc",
@@ -2604,7 +2608,8 @@
         "child_gender": "male|female",
         "name.eng": "Keeping Calm When We Are Stressed",
         "name.afr": "Om Kalm te Bly Wanneer Ons Gestres Is",
-        "name.hau": "Ukuzigcina Uzolile Xana Unonxinzelelo"
+        "name.hau": "Ukuzigcina Uzolile Xana Unonxinzelelo",
+        "name.zul": "Ukwehlisa Umoya Uma Sinengcindezi"
       },
       {
         "ID": "one_on_one_teen",
@@ -2614,7 +2619,8 @@
         "child_gender": "male|female",
         "name.eng": "Spend One-on-One Time with My Teen",
         "name.afr": "Spandeer Een-tot-Een Tyd saam met my Tiener",
-        "name.hau": "Ukuchitha Ixesha Kunye Nomntana Wam Sisodwa"
+        "name.hau": "Ukuchitha Ixesha Kunye Nomntana Wam Sisodwa",
+        "name.zul": "Ukuchitha Isikhathi Esikhethekile Nomntwana Wami"
       },
       {
         "ID": "give_praise_teen",
@@ -2624,7 +2630,8 @@
         "child_gender": "male|female",
         "name.eng": "Giving Praise",
         "name.afr": "Om te Prys",
-        "name.hau": "Ukuncoma"
+        "name.hau": "Ukuncoma",
+        "name.zul": "Ukuncoma"
       },
       {
         "ID": "routines_teen",
@@ -2634,7 +2641,8 @@
         "child_gender": "male|female",
         "name.eng": "Creating a Routine for One-on-One Time",
         "name.afr": "Skep 'n Roetine vir Een-tot-Een Tyd",
-        "name.hau": "Yakha Inkqubo Yemihla Ngemihla Yexesha Kunye Nomntana Wam Sisodwa"
+        "name.hau": "Yakha Inkqubo Yemihla Ngemihla Yexesha Kunye Nomntana Wam Sisodwa",
+        "name.zul": "Ukwakha Uhlelo Lokuba Nesikhathi Esikhethekile"
       },
       {
         "ID": "feelings_teen",
@@ -2644,7 +2652,8 @@
         "child_gender": "male|female",
         "name.eng": "Noticing Feelings During One-on-One Time",
         "name.afr": "Let op na Gevoelens Tydens Een-tot-Een Tyd",
-        "name.hau": "Qaphela Imvakalelo Ngelixa Ixesha Kunye Nomntana Wam Sisodwa"
+        "name.hau": "Qaphela Imvakalelo Ngelixa Ixesha Kunye Nomntana Wam Sisodwa",
+        "name.zul": "Ukuqaphela Imizwa Kules'khathi Esikhethekile"
       },
       {
         "ID": "calm_teen",
@@ -2654,7 +2663,8 @@
         "child_gender": "male|female",
         "name.eng": "Keeping Calm When We Are Stressed",
         "name.afr": "Om Kalm te Bly Wanneer Ons Gestres Is",
-        "name.hau": "Ukuzigcina Uzolile Xana Unonxinzelelo"
+        "name.hau": "Ukuzigcina Uzolile Xana Unonxinzelelo",
+        "name.zul": "Ukwehlisa Umoya Uma Sinengcindezi"
       },
       {
         "ID": "safe_touch_2to5_yc_m",
@@ -2664,7 +2674,8 @@
         "child_gender": "male",
         "name.eng": "Teach Safe Touch",
         "name.afr": "Leer Veilige Aanraking ",
-        "name.hau": "Fundisa Ukubamba Okukhuselekileyo"
+        "name.hau": "Fundisa Ukubamba Okukhuselekileyo",
+        "name.zul": ""
       },
       {
         "ID": "safe_touch_2to5_yc_f",
@@ -2674,7 +2685,8 @@
         "child_gender": "female",
         "name.eng": "Teach Safe Touch",
         "name.afr": "Leer Veilige Aanraking ",
-        "name.hau": "Fundisa Ukubamba Okukhuselekileyo"
+        "name.hau": "Fundisa Ukubamba Okukhuselekileyo",
+        "name.zul": ""
       },
       {
         "ID": "safe_touch_6to9_yc",
@@ -2684,7 +2696,8 @@
         "child_gender": "male|female",
         "name.eng": "Teach Safe Touch",
         "name.afr": "Leer Veilige Aanraking ",
-        "name.hau": "Fundisa Ukubamba Okukhuselekileyo"
+        "name.hau": "Fundisa Ukubamba Okukhuselekileyo",
+        "name.zul": ""
       },
       {
         "ID": "com_safety_2to4_yc",
@@ -2694,7 +2707,8 @@
         "child_gender": "male|female",
         "name.eng": "Community Safety",
         "name.afr": "Gemeenskapsveiligheid",
-        "name.hau": "Ukhuseleko Ekuhlaleni"
+        "name.hau": "Ukhuseleko Ekuhlaleni",
+        "name.zul": ""
       },
       {
         "ID": "com_safety_5to9_yc",
@@ -2704,7 +2718,8 @@
         "child_gender": "male|female",
         "name.eng": "Community Safety",
         "name.afr": "Gemeenskapsveiligheid",
-        "name.hau": "Ukhuseleko Ekuhlaleni"
+        "name.hau": "Ukhuseleko Ekuhlaleni",
+        "name.zul": ""
       },
       {
         "ID": "crises_2to6_yc",
@@ -2714,7 +2729,8 @@
         "child_gender": "male|female",
         "name.eng": "Respond to Crises",
         "name.afr": "Reageer op Krisisse",
-        "name.hau": "Ukusabela KwiNgxaki"
+        "name.hau": "Ukusabela KwiNgxaki",
+        "name.zul": ""
       },
       {
         "ID": "crises_7to9_yc",
@@ -2724,7 +2740,8 @@
         "child_gender": "male|female",
         "name.eng": "Respond to Crises",
         "name.afr": "Reageer op Krisisse",
-        "name.hau": "Ukusabela KwiNgxaki"
+        "name.hau": "Ukusabela KwiNgxaki",
+        "name.zul": ""
       },
       {
         "ID": "online_safety_yc",
@@ -2734,7 +2751,8 @@
         "child_gender": "male|female",
         "name.eng": "Knowing Basics of Online Safety",
         "name.afr": "Ken Basiese Aanlyn-Veiligheid",
-        "name.hau": "Yazi iMiseko yoKhuseleko kwi-Intanethi"
+        "name.hau": "Yazi iMiseko yoKhuseleko kwi-Intanethi",
+        "name.zul": ""
       },
       {
         "ID": "habits_trust_online_yc",
@@ -2744,7 +2762,8 @@
         "child_gender": "male|female",
         "name.eng": "Building Habits and Trust Online",
         "name.afr": "Bou Gewoontes en Vertroue Aanlyn",
-        "name.hau": "Yakha Imikhwa nokuThemba kwi-Intanethi"
+        "name.hau": "Yakha Imikhwa nokuThemba kwi-Intanethi",
+        "name.zul": ""
       },
       {
         "ID": "community_safety_teen",
@@ -2754,7 +2773,8 @@
         "child_gender": "male|female",
         "name.eng": "Community Safety",
         "name.afr": "Gemeenskapsveiligheid",
-        "name.hau": "Ukhuseleko Ekuhlaleni"
+        "name.hau": "Ukhuseleko Ekuhlaleni",
+        "name.zul": ""
       },
       {
         "ID": "sex_violence_teen",
@@ -2764,7 +2784,8 @@
         "child_gender": "male|female",
         "name.eng": "Prevent Sexual Violence",
         "name.afr": "Voorkom Seksuele Geweld",
-        "name.hau": "Nqanda ubuDlobongela okuphathelele ngokweSondo"
+        "name.hau": "Nqanda ubuDlobongela okuphathelele ngokweSondo",
+        "name.zul": ""
       },
       {
         "ID": "crises_teen",
@@ -2774,7 +2795,8 @@
         "child_gender": "male|female",
         "name.eng": "Respond to Crises",
         "name.afr": "Reageer op Krisisse",
-        "name.hau": "Ukusabela KwiiNgxaki"
+        "name.hau": "Ukusabela KwiiNgxaki",
+        "name.zul": ""
       },
       {
         "ID": "online_safety_teen",
@@ -2784,7 +2806,8 @@
         "child_gender": "male|female",
         "name.eng": "Know Online Safety Basics",
         "name.afr": "Ken Basiese Aanlyn-Veiligheid",
-        "name.hau": "Yazi iMiseko yoKhuseleko kwi-Intanethi"
+        "name.hau": "Yazi iMiseko yoKhuseleko kwi-Intanethi",
+        "name.zul": ""
       },
       {
         "ID": "habits_online_teen",
@@ -2794,7 +2817,8 @@
         "child_gender": "male|female",
         "name.eng": "Build Habits and Trust Online",
         "name.afr": "Bou Gewoontes en Vertroue Aanlyn",
-        "name.hau": "Yakha Imikhwa nokuThemba kwi-Intanethi"
+        "name.hau": "Yakha Imikhwa nokuThemba kwi-Intanethi",
+        "name.zul": ""
       },
       {
         "ID": "care_myself_yc",
@@ -2804,7 +2828,8 @@
         "child_gender": "male|female",
         "name.eng": "Care for Myself",
         "name.afr": "Ukuzinakekela",
-        "name.hau": ""
+        "name.hau": "",
+        "name.zul": "Ukuzinakekela"
       },
       {
         "ID": "toddler_change_yc",
@@ -2814,7 +2839,8 @@
         "child_gender": "male|female",
         "name.eng": "How Your Child is Changing",
         "name.afr": " Ushintsha Kanjani Umntwana Wakho",
-        "name.hau": ""
+        "name.hau": "",
+        "name.zul": " Ushintsha Kanjani Umntwana Wakho"
       },
       {
         "ID": "young_child_change_yc",
@@ -2824,7 +2850,8 @@
         "child_gender": "male|female",
         "name.eng": "How Your Child is Changing",
         "name.afr": " Ushintsha Kanjani Umntwana Wakho",
-        "name.hau": ""
+        "name.hau": "",
+        "name.zul": " Ushintsha Kanjani Umntwana Wakho"
       },
       {
         "ID": "child_change_yc",
@@ -2834,7 +2861,8 @@
         "child_gender": "male|female",
         "name.eng": "How Your Child is Changing",
         "name.afr": " Ushintsha Kanjani Umntwana Wakho",
-        "name.hau": ""
+        "name.hau": "",
+        "name.zul": " Ushintsha Kanjani Umntwana Wakho"
       },
       {
         "ID": "play_yc",
@@ -2844,7 +2872,8 @@
         "child_gender": "male|female",
         "name.eng": "The Power of Play",
         "name.afr": "Amandla Omdlalo",
-        "name.hau": ""
+        "name.hau": "",
+        "name.zul": "Amandla Omdlalo"
       },
       {
         "ID": "learn_experience_yc",
@@ -2854,7 +2883,8 @@
         "child_gender": "male|female",
         "name.eng": "Learning From Experience",
         "name.afr": "Ukufunda Kosudlule Kuko Empilweni",
-        "name.hau": ""
+        "name.hau": "",
+        "name.zul": "Ukufunda Kosudlule Kuko Empilweni"
       },
       {
         "ID": "care_myself_teen",
@@ -2864,7 +2894,8 @@
         "child_gender": "male|female",
         "name.eng": "Care for Myself",
         "name.afr": "Ukuzinakekela",
-        "name.hau": ""
+        "name.hau": "",
+        "name.zul": "Ukuzinakekela"
       },
       {
         "ID": "mental_changes_teen",
@@ -2874,7 +2905,8 @@
         "child_gender": "male|female",
         "name.eng": "Mental Changes in the Teen Years",
         "name.afr": "Ushintsho Ngokomqondo Ekukhuleni Komntwana",
-        "name.hau": ""
+        "name.hau": "",
+        "name.zul": "Ushintsho Ngokomqondo Ekukhuleni Komntwana"
       },
       {
         "ID": "social_changes_teen",
@@ -2884,7 +2916,8 @@
         "child_gender": "male|female",
         "name.eng": "Social Changes in the Teen Years",
         "name.afr": "Ushintsho Ngokwendlela Yokuphila Ekukhuleni Komntwana",
-        "name.hau": ""
+        "name.hau": "",
+        "name.zul": "Ushintsho Ngokwendlela Yokuphila Ekukhuleni Komntwana"
       },
       {
         "ID": "physical_changes_teen_m",
@@ -2894,7 +2927,8 @@
         "child_gender": "male",
         "name.eng": "Physical Changes in the Teen Years",
         "name.afr": "Ushintsho Ngokomzimba Ekukhuleni Komntwana",
-        "name.hau": ""
+        "name.hau": "",
+        "name.zul": "Ushintsho Ngokomzimba Ekukhuleni Komntwana"
       },
       {
         "ID": "physical_changes_teen_f",
@@ -2904,7 +2938,8 @@
         "child_gender": "female",
         "name.eng": "Physical Changes in the Teen Years",
         "name.afr": "Ushintsho Ngokomzimba Ekukhuleni Komntwana",
-        "name.hau": ""
+        "name.hau": "",
+        "name.zul": "Ushintsho Ngokomzimba Ekukhuleni Komntwana"
       }
     ],
     "goal_topic_link": [
