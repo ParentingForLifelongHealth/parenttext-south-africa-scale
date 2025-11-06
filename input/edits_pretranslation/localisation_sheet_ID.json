@@ -17,6 +17,24 @@
         "sheet_name": "onboarding-video",
         "status": "released",
         "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "remove-lang-selection",
+        "status": "draft",
+        "order": "0"
+      }
+    ],
+    "remove-lang-selection": [
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "onboarding_wrapper",
+        "original_row_id": "",
+        "node_identifier": "onboarding_question_language - entry",
+        "change": "onboarding_question_language - entry",
+        "condition_var": "",
+        "category": "set_language_eng"
       }
     ],
     "take-a-pause-gendered": [

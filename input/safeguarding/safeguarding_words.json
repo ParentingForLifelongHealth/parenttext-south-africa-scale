@@ -5400,31 +5400,55 @@
             "English": {
                 "keywords": [
                     "parenttext",
-                    "parentext"
+                    "parentext",
+                    "buza",
+                    "share"
                 ],
-                "mispellings": []
+                "mispellings": [
+                    "hi",
+                    "support",
+                    "demo"
+                ]
             },
             "Translation": {
                 "hau": {
                     "keywords": [
                         "parenttext",
-                        "parentext"
+                        "parentext",
+                        "buza",
+                        "share"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "hi",
+                        "support",
+                        "demo"
+                    ]
                 },
                 "zul": {
                     "keywords": [
                         "parenttext",
-                        "parentext"
+                        "parentext",
+                        "buza",
+                        "share"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "hi",
+                        "support",
+                        "demo"
+                    ]
                 },
                 "afr": {
                     "keywords": [
                         "parenttext",
-                        "parentext"
+                        "parentext",
+                        "buza",
+                        "share"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "hi",
+                        "support",
+                        "demo"
+                    ]
                 }
             }
         }

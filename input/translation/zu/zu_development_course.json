@@ -391,7 +391,7 @@
   },
   {
     "SourceText": "2️⃣ **ALLOW CREATIVITY**",
-    "text": "2️⃣ *VUMELA IKHONO LOKUDALA**",
+    "text": "2️⃣ **VUMELA IKHONO LOKUDALA**",
     "type": "text",
     "note": ""
   },
@@ -1381,7 +1381,7 @@
   },
   {
     "SourceText": "2️⃣ **SUPPORT CURIOSITY**",
-    "text": "2️⃣ SEKELA ILUKULUKU**",
+    "text": "2️⃣ **SEKELA ILUKULUKU**",
     "type": "text",
     "note": ""
   },
@@ -1429,7 +1429,7 @@
   },
   {
     "SourceText": "1️⃣ LEARN BY PLAYING",
-    "text": "1️⃣ **FUNDA NGOKUDLALA",
+    "text": "1️⃣ **FUNDA NGOKUDLALA**",
     "type": "text",
     "note": ""
   },
@@ -1705,7 +1705,7 @@
   },
   {
     "SourceText": "1️⃣ FIND FRIENDS",
-    "text": "1️⃣ **THOLA ABANGANI",
+    "text": "1️⃣ **THOLA ABANGANI**",
     "type": "text",
     "note": ""
   },
@@ -2606,6 +2606,12 @@
   {
     "SourceText": "What is puberty, and when does it often begin for boys?",
     "text": "Yini ukungena ezingeni lobudala, futhi kujwayele ukuqala nini ebafaneni?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Correct! Puberty is when a person's body undergoes changes as they grow into adults. For boys, puberty starts between ages 9 and 14.",
+    "text": "Uqinisile! Ukuthomba kungesikhathi kwenzeka usintsho emzimbeni ngesikhathi bekhula bengena kwisigaba sobudala ezingeni lobudala ushintsho. Ebafaneni, ukuthomba kuqala eminyakeni ephakathi kwa-9 no-14.",
     "type": "text",
     "note": ""
   },

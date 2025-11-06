@@ -1752,6 +1752,15 @@
         "change": "{GROW}",
         "condition_var": "",
         "category": "GROW"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "consent",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*HELLO.*",
+        "change": "HELLO",
+        "condition_var": "",
+        "category": "PARENTTEXT"
       }
     ],
     "triggers_transl": [
@@ -1943,6 +1952,33 @@
         "original": "{GROW}",
         "language": "zul",
         "replacement": "KHULA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "consent",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*HELLO.*",
+        "original": "SAWUBONA",
+        "language": "zul",
+        "replacement": "PARENTTEXT"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "consent",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*HELLO.*",
+        "original": "MOLO",
+        "language": "hau",
+        "replacement": "PARENTTEXT"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "consent",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*HELLO.*",
+        "original": "HALLO",
+        "language": "afr",
+        "replacement": "PARENTTEXT"
       }
     ],
     "wa_bold_eng": [

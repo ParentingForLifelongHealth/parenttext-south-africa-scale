@@ -247,7 +247,7 @@
   },
   {
     "SourceText": "{generic referrals}",
-    "text": "{Ukudluliselwa okuvamile}",
+    "text": "{generic referrals}",
     "type": "text",
     "note": ""
   },
@@ -265,7 +265,7 @@
   },
   {
     "SourceText": "{mental_health referrals}",
-    "text": "{Ukudluliselwa kwezempilo yengqondo}",
+    "text": "{mental_health referrals}",
     "type": "text",
     "note": ""
   },
@@ -277,7 +277,7 @@
   },
   {
     "SourceText": "{health referrals}",
-    "text": "{Ukudluliselwa ngokwezempilo}",
+    "text": "{health referrals}",
     "type": "text",
     "note": ""
   },
@@ -289,13 +289,13 @@
   },
   {
     "SourceText": "{natural_disasters referrals}",
-    "text": "{ukudluliselwa ngenhlekelele zemvelo}",
+    "text": "{natural_disasters referrals}",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "{drugs referrals}",
-    "text": "{ukudluliselwa ngedakamizwa}",
+    "text": "{drugs referrals}",
     "type": "text",
     "note": ""
   },
@@ -517,7 +517,7 @@
   },
   {
     "SourceText": "That's okay. You can access more information at any time in the Main Menu. Just type {MENU}.",
-    "text": "Kulungile. Ungafinyelela olwazini olwengeziwe nganoma yisiphi isikhathi kwi menyu nkulu. Vele ubhale ukuthi {Menyu}.",
+    "text": "Kulungile. Ungafinyelela olwazini olwengeziwe nganoma yisiphi isikhathi kwi menyu nkulu. Vele ubhale ukuthi {MENU}.",
     "type": "text",
     "note": ""
   },
@@ -588,8 +588,8 @@
     "note": ""
   },
   {
-    "SourceText": "Let's start with the course",
-    "text": "Masiqale ngesifundo",
+    "SourceText": "Let's start with your final course:",
+    "text": "Masiqale ngesifundo sakho sokugcina:",
     "type": "text",
     "note": ""
   },
@@ -600,8 +600,8 @@
     "note": ""
   },
   {
-    "SourceText": "What would you like to do next?",
-    "text": "Yini ongathanda ukuyenza ngokulandelayo?",
+    "SourceText": "We'll continue the course tomorrow. Is there anything else you'd like to do today?",
+    "text": "Sizoqhubeka nesifundo kusasa. Ikhona enye into ofisa ukuyenza namhlanje?",
     "type": "text",
     "note": ""
   },
@@ -630,8 +630,32 @@
     "note": ""
   },
   {
-    "SourceText": "Thank you for participating!",
-    "text": "Siyabonga ngokuhlanganyela kwakho!",
+    "SourceText": "*🥳 Wow! You did it—you finished the whole programme!*",
+    "text": "*🥳 Halala! Ukwenzile - uqede yonke iprogrem!*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "ParentText only took a few minutes a day, but the real work was the time you spent with @fields.child_nickname.",
+    "text": "I ParentText ithatha imizuzu embalwa ngosuku, kodwa umsebenzi wangempela isikhathi osichitha no@fields.child_nickname",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Thank you for joining me and for investing in yourself and @fields.child_nickname. You both matter—and you’re worth it!",
+    "text": "Ngiyabonga ukungijoyina  nokuzinikela kwakho nino@fields.child_nickname. Nobabili nibalulekile!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "ParentText only took a few minutes a day, but the real work was the time you spent with your child.",
+    "text": "I ParentText ithatha imizuzu embalwa ngosuku, kodwa umsebenzi wangempela isikhathi osichitha nengane yakho",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for joining me and for investing in yourself and your child. You both matter—and you’re worth it!",
+    "text": "Ngiyabonga ukungijoyina nokuzinikelela wena nengane yakho. Nobabili nibalulekile!",
     "type": "text",
     "note": ""
   },
@@ -764,6 +788,12 @@
   {
     "SourceText": "{share link}",
     "text": "{share link}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What would you like to do next?",
+    "text": "Yini ongathanda ukuyenza ngokulandelayo?",
     "type": "text",
     "note": ""
   },
@@ -1465,7 +1495,7 @@
   },
   {
     "SourceText": "{family referrals}",
-    "text": "{ukudluliselwa ngomndeni}",
+    "text": "{family referrals}",
     "type": "text",
     "note": ""
   },
@@ -1618,6 +1648,18 @@
     "text": "Igama lakho ongathanda libe kusitifiketi sakho kanje @fields.certificate_name. Ingabe kulungile lokho?",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Want to improve your relationship with your child in just 5 days?",
+    "text": "Ufuna ukuthuthukisa ubudlelwane nengane yakho ngezinsuku eziwu 5?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Send PARENTTEXT to this number and get FREE daily practical tips.",
+    "text": "Thumela u PARENTTEXT kulenamba ukuze uthole amathiphu amahala zonke izinsuku.",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "Text, Images, and Videos",
@@ -1878,14 +1920,14 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Continue my progress tomorrow",
-    "text": "Qhubeka intuthuko yami kusasa",
+    "SourceText": "Go to Main Menu",
+    "text": "Iya kwi-Menyu enkulu",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Go to Main Menu",
-    "text": "Iya kwi-Menyu enkulu",
+    "SourceText": "Continue my progress tomorrow",
+    "text": "Qhubeka intuthuko yami kusasa",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -2168,6 +2210,12 @@
   {
     "SourceText": "Exit",
     "text": "Phuma",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "PARENTTEXT",
+    "text": "PARENTTEXT",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -2478,6 +2526,12 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
+    "SourceText": "grow",
+    "text": "ukukhula",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
     "SourceText": "stop",
     "text": "yima",
     "type": "arguments",
@@ -2486,6 +2540,12 @@
   {
     "SourceText": "no n nope nah",
     "text": "cha c cha cha",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "share",
+    "text": "ukwabelana",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },

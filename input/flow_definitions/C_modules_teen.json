@@ -357,7 +357,8 @@
         "home_activity.activity": "Home activity! ⭐\n\nCreate a community safety map with your teen. Make sure to listen to their thoughts too! \nDo you have time to do it today? 🚩",
         "home_activity.positive_msg": "Amazing! This is a great way to build trust with your teen and keep them safe.",
         "home_activity.negative_msg": "That's OK! Plan to set aside an hour in the next few days to work on this map with your teen. It's a great way to build trust with them and keep them safe. ",
-        "congratulations.msg_list": "Great job! 🎉 You have learnt about keeping your teen safe in your community! You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course {goal_name}.⭐"
+        "congratulations.msg_list": "Great job! 🎉 You have learnt about keeping your teen safe in your community! You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course {goal_name}.⭐",
+        "attached_single_doc": "https://docs.google.com/document/d/1BHH5GPVU1lsE1xBVFoOsMdVNdyjMlw5lZXVSMdpoQuc"
       },
       {
         "ID": "sex_violence_teen",
@@ -411,7 +412,8 @@
         "home_activity.activity": "Home activity! ⭐\nHelp your teen be prepared by repeating this lesson together. To repeat this lesson you can type {PREVENT} after we finish. Can you do it today?",
         "home_activity.positive_msg": "That’s great! ✨ ",
         "home_activity.negative_msg": "That's OK! 💛Plan to set aside an hour in the next few days to have this conversation with your teen.",
-        "congratulations.msg_list": "Excellent work 🎉. You have completed the Prevent Sexual Violence lesson. You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course {goal_name}. This lesson can be difficult to complete. Remember to take a pause and care for yourself 💛."
+        "congratulations.msg_list": "Excellent work 🎉. You have completed the Prevent Sexual Violence lesson. You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course {goal_name}. This lesson can be difficult to complete. Remember to take a pause and care for yourself 💛.",
+        "attached_single_doc": ""
       },
       {
         "ID": "crises_teen",
@@ -450,7 +452,7 @@
         "tips.message.1.image": "",
         "tips.message.2.text": "2️⃣ **LISTEN**: Ask Your Teen what is going on\n\n👂 Let your teen share with you what they need.\n\n👀 Notice what they are feeling and tell them what you notice so they feel heard.\n\n💙 Tell your teen that you are there for them and love them.",
         "tips.message.2.image": "",
-        "tips.message.3.text": "3️⃣ **RESPOND**: What might help what is going on?\n\n🔶 You might need to help your teen talk about their feelings or redirect their focus.\n\n➡️ You might need to talk about the actions that you or your teen could take to help with what has happened.\n\n⏸ Now isn’t the time to talk about how to keep safe in the future. Right now, your teen needs you to be there for them with love.\n\n✅ Remember, you can always type {HELP} to ParentText and get information about resources in your community where you can get help. ",
+        "tips.message.3.text": "3️⃣ **RESPOND**: What might help what is going on?\n\n🔶 You might need to help your teen talk about their feelings or redirect their focus.\n\n➡️ You might need to talk about the actions that you or your teen could take to help with what has happened.\n\n⏸ Now isn’t the time to talk about how to keep safe in the future. Right now, your teen needs you to be there for them with love.\n\n❤️‍🩹 You are not alone. Call Childline on 116 — a caring counsellor is ready to listen, support, and help you find a way through tough situations. Teach your teen to dial 116 if they or someone they know needs extra help and support.\n\n✅ Remember, you can always type {HELP} to ParentText and get information about resources in your community where you can get help. ",
         "tips.message.3.image": "",
         "tips.message.4.text": "4️⃣ **COMFORT**: Be there for Your Teen\n🌷 It can be hard to see your teen feeling upset or confused, but there is a lot you can do to support them.\n💚 They need you to accept them and comfort them when difficult things are going on.\n🎈 Remind your teen again that you love them, and thank them for sharing with you.",
         "tips.message.4.image": "",
@@ -465,7 +467,8 @@
         "home_activity.activity": "Home activity! ⭐\n1️⃣Find a calm time to talk with Your Teen about possible crises that may happen.\n \n2️⃣Discuss possible actions that you can take with your teen if they happen. \n\n3️⃣Revisit the Mapping Activity to identify other sources of support in the community.\n \n4️⃣Thank your teen for taking the time to chat about this. \n\nDo you have time to do this today?",
         "home_activity.positive_msg": "Great! ✨ This can help prepare you and your teen for difficult situations AND avoid them happening in the first place.",
         "home_activity.negative_msg": "That's OK! 💛Plan to set aside an hour in the next few days to have this conversation with your teen. This can help prepare you and your teen for difficult situations AND avoid them happening in the first place. ",
-        "congratulations.msg_list": "Amazing job! 🎉 You have learnt how to respond to crises! You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course {goal_name}. "
+        "congratulations.msg_list": "Amazing job! 🎉 You have learnt how to respond to crises! You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course {goal_name}. ",
+        "attached_single_doc": ""
       },
       {
         "ID": "online_safety_teen",
@@ -519,7 +522,8 @@
         "home_activity.activity": "Home activity! ⭐\nAsk your teen what they do to stay safe online? You may find that they are already thinking about online safety. Praise your teen for any efforts they make. Can you talk with Your Teen today? 🔔",
         "home_activity.positive_msg": "That’s great! 🎉 Helping your teen stay safe online is important so they can learn and connect with others. Well done for getting involved. They will be safer for it! 🔑",
         "home_activity.negative_msg": "That’s OK. Put some time aside this week to do this activity with your teen. ⏰ It’s important to talk to our teens about how to stay safe online so they can use the digital world to learn more and connect with others. You can do this! ⭐",
-        "congratulations.msg_list": "Amazing! 🎉 You have learnt how to keep your teen safe online. \n;\nYou have completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course {goal_name}. "
+        "congratulations.msg_list": "Amazing! 🎉 You have learnt how to keep your teen safe online. \n;\nYou have completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course {goal_name}. ",
+        "attached_single_doc": ""
       },
       {
         "ID": "habits_online_teen",
@@ -573,7 +577,8 @@
         "home_activity.activity": "Home activity! ⭐\n\nTake these steps to keep your teen safe online:\n\n 📝 Write down or draw the apps and websites your teen uses.\n\n🏅Praise your teen for how good they are at using the web!\n\n🔴 Talk about which sites or apps might be unsafe. Why?\n\n📱 Together, talk about how Your Teen and their friends can use the internet more safely.\n\nCan you and Your Teen complete this task today? 🔔",
         "home_activity.positive_msg": "That’s great! Helping your teen stay safe online is important so they can learn and connect with others. Well done for getting involved. They will be safer for it! 🔑",
         "home_activity.negative_msg": "That’s OK. Put some time aside this week to do this activity with your teen. ⏰ It’s important to talk to our teens about how to stay safe online so they can use the digital world to learn more and connect with others. You can do this! ⭐",
-        "congratulations.msg_list": "Lesson complete! 🎉 You have learnt the importance of building safe online habits, and building trust with your teen. \n; \nYou have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course {goal_name}.⭐"
+        "congratulations.msg_list": "Lesson complete! 🎉 You have learnt the importance of building safe online habits, and building trust with your teen. \n; \nYou have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course {goal_name}.⭐",
+        "attached_single_doc": ""
       }
     ],
     "==sidekick==": [

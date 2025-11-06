@@ -390,6 +390,12 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
+    "SourceText": "❤️‍🩹 You are not alone. Call Childline on 116 — a caring counsellor is ready to listen, support, and help you find a way through tough situations. Teach your child to dial 116 if they or someone they know needs extra help and support.",
+    "text": "❤️‍🩹 Jy is nie alleen nie. Skakel Childline op 116 — ’n vriendelike berader is reg om te luister, jou te ondersteun en jou te help om deur moeilike situasies te kom. Leer jou kind om 116 te skakel as hulle, of iemand wat hulle ken, ekstra hulp en ondersteuning kort.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "🔴 Tell your child that if they feel worried, uncomfortable, or unsafe about anyone touching them, they should tell you or an adult they trust. Always believe your child when they tell you about someone touching them in an unsafe way.",
     "text": "🔴Vertel jou kind dat as hulle bekommerd, ongemaklik, of onveilig voel oor enige iemand wat aan hulle raak, dat hulle vir jou of 'n volwassene, wat hulle vertrou, moet vertel. Glo altyd jou kind wanneer hulle jou vertel van iemand wat in 'n onveilige manier aan hulle geraak het.",
     "type": "text",
@@ -544,6 +550,12 @@
     "text": "Jy het nou @(fields.c_n_mod_compl +1) van @fields.c_n_mod lesse in die kursus, {goal_name}, voltooi. ⭐",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "❤️‍🩹  You are not alone. Call Childline on 116 — a caring counsellor is ready to listen, support, and help you find a way through tough situations. Teach your child to dial 116 if they or someone they know needs extra help and support.",
+    "text": "❤️‍🩹  Jy is nie alleen nie. Skakel Childline op 116 — ’n vriendelike berader is reg om te luister, jou te ondersteun en jou te help om deur moeilike situasies te kom. Leer jou kind om 116 te skakel as hulle, of iemand wat hulle ken, ekstra hulp en ondersteuning kort.",
+    "type": "text",
+    "note": ""
   },
   {
     "SourceText": "😔 It is normal to feel uncomfortable about talking to children about abuse. ",
@@ -1440,8 +1452,14 @@
     "note": ""
   },
   {
-    "SourceText": "✅ Remember, you can always type {HELP} to ParentText and get information about resources in your community where you can receive help.",
-    "text": "✅ Onthou, jy kan altyd {HELP} in ParentText tik en inligting kry oor hulpbronne in jou gemeenskap waar jy hulp kan ontvang indien jy dit nodig het.",
+    "SourceText": "❤️‍🩹 Remember: ChildLine is here to help. If your child is experiencing violence, dial 116. ",
+    "text": "❤️‍🩹 Onthou: Childline is hier om te help. As jou kind geweld ervaar, skakel 116.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ You can also type {HELP} to ParentText to learn where you can receive help in your community.",
+    "text": "✅ Jy kan ook die woord {HELP} tik en na ParentText stuur om uit te vind waar jy hulp in jou gemeenskap kan kry.",
     "type": "text",
     "note": ""
   },
@@ -1616,6 +1634,18 @@
   {
     "SourceText": "🔶 You might need to help your child talk about their feelings.",
     "text": "🔶 Jy mag dalk nodig hê om jou kind te help om oor hulle gevoelens te praat.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "➡️ You might need to talk about the actions that you or your child could take to help with what has happened. ",
+    "text": "➡️ Jy mag dalk moet praat oor die stappe wat jy of jou kind kan neem om te help met wat gebeur het. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ You can also type {HELP} in ParentText to see where you can find help in your community.",
+    "text": "✅ Jy kan ook die woord {HELP} tik en na ParentText stuur om uit te vind waar jy hulp in jou gemeenskap kan kry.",
     "type": "text",
     "note": ""
   },
@@ -3002,6 +3032,12 @@
   {
     "SourceText": "⏸ Now isn’t the time to talk about how to keep safe in the future. Right now, your teen needs you to be there for them with love.",
     "text": "⏸ Nou is nie die tyd om te praat oor hoe om in die toekoms veilig te bly nie. Op hierdie oomblik het jou tiener jou nodig om met liefde daar te wees vir hulle.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "❤️‍🩹 You are not alone. Call Childline on 116 — a caring counsellor is ready to listen, support, and help you find a way through tough situations. Teach your teen to dial 116 if they or someone they know needs extra help and support.",
+    "text": "❤️‍🩹 Jy is nie alleen nie. Skakel Childline op 116 — ’n vriendelike berader is reg om te luister, jou te ondersteun en jou te help om deur moeilike situasies te kom. Leer jou tiener om 116 te skakel as hulle, of iemand wat hulle ken, ekstra hulp en ondersteuning kort.",
     "type": "text",
     "note": ""
   },

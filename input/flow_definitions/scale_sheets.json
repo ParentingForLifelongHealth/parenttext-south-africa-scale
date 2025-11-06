@@ -5,6 +5,20 @@
   "sheets": {
     "content_index": [
       {
+        "type": "ignore_row",
+        "sheet_name": "parenttext_campaign_events",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "",
+        "operation": "",
+        "template_arguments": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": ""
+      },
+      {
         "type": "create_campaign",
         "sheet_name": "parenttext_campaign_events_wrappers",
         "data_sheet": "",
@@ -13,7 +27,7 @@
         "data_model": "",
         "operation": "",
         "template_arguments": "",
-        "status": "",
+        "status": "draft",
         "group": "in program",
         "tags.1": "campaign",
         "tags.2": ""
@@ -662,48 +676,6 @@
         "status": "",
         "group": "",
         "tags.1": "",
-        "tags.2": ""
-      },
-      {
-        "type": "ignore_row",
-        "sheet_name": "joining_trigger_confirmation",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "",
-        "operation": "",
-        "template_arguments": "",
-        "status": "",
-        "group": "",
-        "tags.1": "",
-        "tags.2": ""
-      },
-      {
-        "type": "template_definition",
-        "sheet_name": "joining_trigger_confirmation",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "",
-        "operation": "",
-        "template_arguments": "",
-        "status": "",
-        "group": "",
-        "tags.1": "",
-        "tags.2": ""
-      },
-      {
-        "type": "create_flow",
-        "sheet_name": "joining_trigger_confirmation",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "",
-        "operation": "",
-        "template_arguments": "",
-        "status": "",
-        "group": "",
-        "tags.1": "safeguarding",
         "tags.2": ""
       },
       {
@@ -1586,6 +1558,48 @@
         "status": "",
         "group": "",
         "tags.1": "delivery",
+        "tags.2": ""
+      },
+      {
+        "type": "create_flow",
+        "sheet_name": "joining_trigger_confirmation",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "",
+        "operation": "",
+        "template_arguments": "joining_triggers_data;onboarding_messages",
+        "status": "",
+        "group": "",
+        "tags.1": "safeguarding",
+        "tags.2": ""
+      },
+      {
+        "type": "create_flow",
+        "sheet_name": "set_language_eng",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "",
+        "operation": "",
+        "template_arguments": "",
+        "status": "",
+        "group": "",
+        "tags.1": "onboarding",
+        "tags.2": "test"
+      },
+      {
+        "type": "create_flow",
+        "sheet_name": "single_message",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "attribution",
+        "data_model": "",
+        "operation": "",
+        "template_arguments": "onboarding_messages;attribution",
+        "status": "",
+        "group": "",
+        "tags.1": "onboarding",
         "tags.2": ""
       }
     ],
@@ -2530,7 +2544,84 @@
       {
         "ID": "deployment_name",
         "name": "deployment",
-        "value": "SouthAfricaRCT"
+        "value": "SouthAfricaScale"
+      }
+    ],
+    "set_language_eng": [
+      {
+        "row_id": "",
+        "type": "set_contact_language",
+        "from": "",
+        "loop_variable": "",
+        "condition": "",
+        "condition_var": "",
+        "condition_type": "",
+        "condition_name": "",
+        "include_if": "",
+        "message_text": "eng",
+        "save_name": "",
+        "data_sheet": "",
+        "data_row_id": "",
+        "choices.1": "",
+        "choices.2": "",
+        "image": "",
+        "audio": "",
+        "video": "",
+        "obj_name": "",
+        "obj_id": "",
+        "node_name": "",
+        "_nodeId": "",
+        "no_response": ""
+      },
+      {
+        "row_id": "",
+        "type": "save_value",
+        "from": "",
+        "loop_variable": "",
+        "condition": "",
+        "condition_var": "",
+        "condition_type": "",
+        "condition_name": "",
+        "include_if": "",
+        "message_text": "eng",
+        "save_name": "attachment language",
+        "data_sheet": "",
+        "data_row_id": "",
+        "choices.1": "",
+        "choices.2": "",
+        "image": "",
+        "audio": "",
+        "video": "",
+        "obj_name": "",
+        "obj_id": "",
+        "node_name": "",
+        "_nodeId": "",
+        "no_response": ""
+      },
+      {
+        "row_id": "",
+        "type": "save_value",
+        "from": "",
+        "loop_variable": "",
+        "condition": "",
+        "condition_var": "",
+        "condition_type": "",
+        "condition_name": "",
+        "include_if": "",
+        "message_text": "yes",
+        "save_name": "completed language",
+        "data_sheet": "",
+        "data_row_id": "",
+        "choices.1": "",
+        "choices.2": "",
+        "image": "",
+        "audio": "",
+        "video": "",
+        "obj_name": "",
+        "obj_id": "",
+        "node_name": "",
+        "_nodeId": "",
+        "no_response": ""
       }
     ],
     "goal_data": [
@@ -3318,37 +3409,37 @@
     "wa_templates": [
       {
         "ID": "no_response",
-        "name": "no_response",
+        "name": "no_response_scale",
         "uuid": "3be78720-1f04-46d5-8f5c-a42874812351"
       },
       {
         "ID": "daily_interaction",
-        "name": "daily_interaction",
+        "name": "daily_interaction_scale",
         "uuid": "ae552331-da75-4d0c-876f-dd58b9bdcc8a"
       },
       {
         "ID": "start_started_mod_or_later_one",
-        "name": "start_started_mod_or_later_one",
+        "name": "start_started_mod_or_later_one_scale",
         "uuid": "549e6316-3913-4f24-bdf6-25f81b9aa374"
       },
       {
         "ID": "start_started_mod_or_later_multiple",
-        "name": "start_started_mod_or_later_multiple",
+        "name": "start_started_mod_or_later_multiple_scale",
         "uuid": "2436c3d9-e292-4acd-a076-d2870fa3daa3"
       },
       {
         "ID": "first_module_intro",
-        "name": "first_module_intro",
+        "name": "first_module_intro_scale",
         "uuid": "2b99dea3-271f-4f0e-99e0-f3743aec431c"
       },
       {
         "ID": "unfinished_onboarding",
-        "name": "unfinished_onboarding",
+        "name": "unfinished_onboarding_scale",
         "uuid": "793511ce-dd2e-46b7-a3b7-f9d7525c7f6b"
       },
       {
         "ID": "complete_start_module",
-        "name": "complete_start_module",
+        "name": "complete_start_module_scale",
         "uuid": "e6680fe5-6fbf-4318-8161-0c273b09c1a2"
       },
       {
@@ -3367,56 +3458,6 @@
         "ID": "certificate",
         "url": "https://rapidpro-next.idems.international/certificator/washtext/certificates",
         "token": ""
-      }
-    ],
-    "joining_trigger_confirmation": [
-      {
-        "row_id": "",
-        "type": "add_to_group",
-        "from": "",
-        "loop_variable": "",
-        "condition": "",
-        "condition_var": "",
-        "condition_type": "",
-        "condition_name": "",
-        "include_if": "",
-        "message_text": "parenttext",
-        "data_sheet": "",
-        "data_row_id": "",
-        "choices": "",
-        "save_name": "",
-        "image": "",
-        "audio": "",
-        "video": "",
-        "obj_name": "",
-        "obj_id": "",
-        "node_name": "",
-        "_nodeId": "",
-        "no_response": ""
-      },
-      {
-        "row_id": "",
-        "type": "save_flow_result",
-        "from": "",
-        "loop_variable": "",
-        "condition": "",
-        "condition_var": "",
-        "condition_type": "",
-        "condition_name": "",
-        "include_if": "",
-        "message_text": "yes",
-        "data_sheet": "",
-        "data_row_id": "",
-        "choices": "",
-        "save_name": "proceed",
-        "image": "",
-        "audio": "",
-        "video": "",
-        "obj_name": "",
-        "obj_id": "",
-        "node_name": "",
-        "_nodeId": "",
-        "no_response": ""
       }
     ],
     "onboarding_data": [
@@ -3454,6 +3495,11 @@
         "ID": "orientation",
         "flow": "orientation",
         "variable": "@fields.completed_orientation"
+      },
+      {
+        "ID": "attribution",
+        "flow": "attribution",
+        "variable": "@fields.completed_media"
       },
       {
         "ID": "media",

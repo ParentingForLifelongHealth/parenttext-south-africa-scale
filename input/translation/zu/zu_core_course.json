@@ -91,25 +91,25 @@
   },
   {
     "SourceText": "**{F1_MOTHER}**: \"Wonderful idea, {F1_SON_5}! I see you are taking out the yellow scarf with blue stripes on it.”",
-    "text": "Icebo elihle",
+    "text": "**{F1_MOTHER}**: “Umbono omuhle, {F1_SON_5}! Ngiyabona ukhipha isikhafu esiphuzi esinemigqa eluhlaza okwesibhakabhaka.”",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "**{F1_SON_5}**: \"Mommy, it’s for you.\"",
-    "text": "**{F1_SON_5}**Eyakho mama.",
+    "text": "**{F1_SON_5}**: \"Eyakho mama.\"",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "**{F1_MOTHER}**: \"Thank you, I love it!\"",
-    "text": "**{F1_MOTHER}**Ngiyabonga ngiyayithanda!",
+    "text": "**{F1_MOTHER}**: \"Ngiyabonga ngiyayithanda!\"",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "**{F1_SON_5}**: \"Wear it, Mommy!\"",
-    "text": "**{F1_SON_5}**:\"Igqoke mama!\"",
+    "text": "**{F1_SON_5}**: \"Igqoke mama!\"",
     "type": "text",
     "note": ""
   },
@@ -721,7 +721,7 @@
   },
   {
     "SourceText": "**{F2_GRANDMOTHER}**: “I am so happy to see you playing quietly with your blocks, {F2_DAUGHTER_3}. When I come back, it will be time to get ready for bed. When you are ready for bed, we can have 5 minutes of one-on-one time together.”",
-    "text": "**{F2_GRANDMOTHER}}**: “Ngijabule kakhulu ukukubona udlala ngokuthula ngamabhuloksi akho, {F2_DAUGHTER_3}. Uma ngibuya, kuzobe sekuyisikhathi sokulungela ukulala. Uma usulungele ukulala, singaba nemizuzu engu-5 yesikhathi sethu sokuba sobabili sodwa.”",
+    "text": "**{F2_GRANDMOTHER}**: “Ngijabule kakhulu ukukubona udlala ngokuthula ngamabhuloksi akho, {F2_DAUGHTER_3}. Uma ngibuya, kuzobe sekuyisikhathi sokulungela ukulala. Uma usulungele ukulala, singaba nemizuzu engu-5 yesikhathi sethu sokuba sobabili sodwa.”",
     "type": "text",
     "note": ""
   },
@@ -1237,7 +1237,7 @@
   },
   {
     "SourceText": "**{F3_MOTHER}**: “Well done! I am very happy to be able to spend this special time with you, {F3_DAUGHTER_7}.”",
-    "text": "Wenze kahle! Ngiyajabula kakhulu ukuchitha isikhathi esibalulekile nawe.",
+    "text": "**{F3_MOTHER}**: “Wenze kahle! Ngiyajabula kakhulu ukuchitha isikhathi esibalulekile nawe, {F3_DAUGHTER_7}.",
     "type": "text",
     "note": ""
   },
@@ -1639,7 +1639,7 @@
   },
   {
     "SourceText": "**{F2_GRANDFATHER}**: “{F2_SON_8}, well done for doing your homework. You might feel tired now. Let's take a 5-minute break, and after that, we can play a game together to quickly pick up the toys.”",
-    "text": "**{F2_GRANDFATHER}**{F2_SON_8}wenze kahle ngokwenza umsebenzi wasekhaya. Ungazizwa ukhathele manje. Asithathe imizuzu ewu5 yokuphumula, ngemuva kwalokho, singadlala umdlalo ndawonye qoqa amathoyizi ngokushesha.",
+    "text": "**{F2_GRANDFATHER}**: \"{F2_SON_8}wenze kahle ngokwenza umsebenzi wasekhaya. Ungazizwa ukhathele manje. Asithathe imizuzu ewu5 yokuphumula, ngemuva kwalokho, singadlala umdlalo ndawonye qoqa amathoyizi ngokushesha.\"",
     "type": "text",
     "note": ""
   },
@@ -1987,7 +1987,7 @@
   },
   {
     "SourceText": "**{F1_DAUGHTER_13}**: “I was about to do my Science homework. The topic for the homework is to make something out of recycled materials. Could you please help me with it?”",
-    "text": "**{F1_DAUGHTER_13}: Besengizoqala ukwenza umsebenzi wami wesikole wasekhaya weSayensi. Isihloko somsebenzi wukwenza into ethile ngokusebenzisa izinto ezilahliwe. Bengicela ungisiza ngawo?”",
+    "text": "**{F1_DAUGHTER_13}**: \"Besengizoqala ukwenza umsebenzi wami wesikole wasekhaya weSayensi. Isihloko somsebenzi wukwenza into ethile ngokusebenzisa izinto ezilahliwe. Bengicela ungisiza ngawo?”",
     "type": "text",
     "note": ""
   },
@@ -2011,13 +2011,13 @@
   },
   {
     "SourceText": "**{F1_DAUGHTER_13}**: “Could you help me clean these bottles? They will be the pillars of the house. I will make the boxes into the walls and roof of the house. Later, I thought we could paint the boxes and bottles so they look beautiful.”",
-    "text": "**{F1_DAUGHTER_13}: Baba, ngicela ungisiza ungigezela lawa mabhodlela. Azoba yizinsika zendlu. Amabhokisi azoba yizindonga nophahla lwendlu. Emva kwalokho, bengicabanga ukuthi sipende amabhokisi namabhodlela ukuze kuzoba kuhle.”",
+    "text": "**{F1_DAUGHTER_13}**: \"Baba, ngicela ungisiza ungigezela lawa mabhodlela. Azoba yizinsika zendlu. Amabhokisi azoba yizindonga nophahla lwendlu. Emva kwalokho, bengicabanga ukuthi sipende amabhokisi namabhodlela ukuze kuzoba kuhle.”",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "**{F1_FATHER}**: “I may have some leftover paint outside the house. I can take a look later.”",
-    "text": "**{F1_FATHER}**: Ngiyacabanga ukuthi kukhona upende osele ngaphandle, ngizoyobheka emva kwesikhashana.”",
+    "text": "**{F1_FATHER}**: \"Ngiyacabanga ukuthi kukhona upende osele ngaphandle, ngizoyobheka emva kwesikhashana.”",
     "type": "text",
     "note": ""
   },
@@ -2029,7 +2029,7 @@
   },
   {
     "SourceText": "**{F1_FATHER}**: “Wow, it looks different now! It does not look like you used rubbish at all anymore. You also painted the walls and the roof beautifully! I think your teacher will be proud of you when she sees your homework!”",
-    "text": "**{F1_FATHER}**: Wawu, ibukeka ihlukile manje! Ngeke uze ucabange ukuthi yenziwe ngodoti. Uphinde wapenda nezindonga nophahla kahle! Ngicabanga ukuthi uthishelakazi wakho uzoziqhenya ngawe uma esebone umsebenzi wakho wasekhaya!”",
+    "text": "**{F1_FATHER}**: \"Wawu, ibukeka ihlukile manje! Ngeke uze ucabange ukuthi yenziwe ngodoti. Uphinde wapenda nezindonga nophahla kahle! Ngicabanga ukuthi uthishelakazi wakho uzoziqhenya ngawe uma esebone umsebenzi wakho wasekhaya!”",
     "type": "text",
     "note": ""
   },
@@ -3277,7 +3277,7 @@
   },
   {
     "SourceText": "1️⃣ **SIT DOWN**",
-    "text": "1️⃣HLALA PHANSI",
+    "text": "1️⃣ **HLALA PHANSI**",
     "type": "text",
     "note": ""
   },
@@ -3295,7 +3295,7 @@
   },
   {
     "SourceText": "2️⃣ **LISTEN**",
-    "text": "2️⃣**LALELA**",
+    "text": "2️⃣ **LALELA**",
     "type": "text",
     "note": ""
   },
@@ -3319,7 +3319,7 @@
   },
   {
     "SourceText": "3️⃣ **NOTICE**",
-    "text": "3️⃣**QAPHELA**",
+    "text": "3️⃣ **QAPHELA**",
     "type": "text",
     "note": ""
   },
@@ -3337,7 +3337,7 @@
   },
   {
     "SourceText": "4️⃣ **OPEN YOUR EYES**",
-    "text": "4️⃣**VULA AMEHLO AKHO**",
+    "text": "4️⃣ **VULA AMEHLO AKHO**",
     "type": "text",
     "note": ""
   },
@@ -3607,7 +3607,7 @@
   },
   {
     "SourceText": "🚩 Explain *why* you can't do them, and suggest a different activity. ",
-    "text": "🚩 Chaza * kungani * ungakwazi ukubenza, futhi uphakamise umsebenzi ohlukile. ",
+    "text": "🚩 Chaza *kungani* ungakwazi ukubenza, futhi uphakamise umsebenzi ohlukile. ",
     "type": "text",
     "note": ""
   },

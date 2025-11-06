@@ -223,8 +223,8 @@
       },
       {
         "ID": "final_completion",
-        "msg": "Thank you for participating!",
-        "extra_msg": ""
+        "msg": "*🥳 Wow! You did it—you finished the whole programme!*",
+        "extra_msg": "ParentText only took a few minutes a day, but the real work was the time you spent with Your Child.\n\nThank you for joining me and for investing in yourself and Your Child. You both matter—and you’re worth it!"
       },
       {
         "ID": "take_a_pause_completion",
@@ -249,7 +249,7 @@
     "delivery_messages": [
       {
         "ID": "activity_handler",
-        "msg": "What kind of activity do you want to try with your {child_age_group}?",
+        "msg": "What kind of activity do you want to try with your child?",
         "next_button_option": "",
         "metadata.description": "message for choosing which type of activity to do. Types in \"activity_type_data\""
       },

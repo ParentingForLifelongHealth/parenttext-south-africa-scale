@@ -355,7 +355,7 @@
         "tips.message.2.image": "",
         "tips.message.3.text": "3️⃣ GET AWAY\n\n💡 Always teach Your Child how to get away from any situation where they feel uncomfortable. \n\n🚩 Offenders are usually known to the child and/or caregivers and initially engage in physical activities like wrestling or touching. This is to get the child comfortable with touch.\n\n❗ When playing physical games like wrestling  with your child, practice saying \"no\" and respecting their boundaries. If your child says \"no\", stop the game immediately.\n\n🌷 This empowers them to say “NO!” to unsafe situations outside the home as well. It will not be as easy for the child to get away from such situations, but teaching them how to leave when they feel uncomfortable will help.",
         "tips.message.3.image": "",
-        "tips.message.4.text": "4️⃣ TELL AN ADULT\n\n🔴 Tell Your Child that if they feel worried, uncomfortable, or unsafe about anyone touching them, they should tell you or an adult they trust. Always believe your child when they tell you about someone touching them in an unsafe way.\n\n👂 If Your Child tells you about something that has happened, listen openly and tell them they were right to tell you. Then, take steps to keep them safe, including not ever leaving them alone with anyone that makes them feel unsafe.",
+        "tips.message.4.text": "4️⃣ TELL AN ADULT\n\n🔴 Tell Your Child that if they feel worried, uncomfortable, or unsafe about anyone touching them, they should tell you or an adult they trust. Always believe your child when they tell you about someone touching them in an unsafe way.\n\n👂 If Your Child tells you about something that has happened, listen openly and tell them they were right to tell you. Then, take steps to keep them safe, including not ever leaving them alone with anyone that makes them feel unsafe.\n\n❤️‍🩹 You are not alone. Call Childline on 116 — a caring counsellor is ready to listen, support, and help you find a way through tough situations. Teach your child to dial 116 if they or someone they know needs extra help and support.",
         "tips.message.4.image": "",
         "tips.message.5.text": "",
         "tips.message.6.text": "",
@@ -369,7 +369,8 @@
         "home_activity.activity": "Home activity! ⭐ \n\nHave a conversation with Your Child about safe and unsafe touch. ❌ Help them practise saying, “No, don’t do that!” and remind them to tell an adult if it happens. \n\nCan you do this with Your Child today? ⏰",
         "home_activity.positive_msg": "That’s great! 💙 This will help them protect themselves if they ever feel unsafe when somebody touches them. You’re doing so well!",
         "home_activity.negative_msg": "That's OK! If you don't have time today, set some time aside tomorrow. Talking to Your Child about this will help them protect themselves if they ever feel unsafe when somebody touches them. 💙 You’re doing so well!",
-        "congratulations.msg_list": "Lesson complete! You have learnt to teach Your Child about safe touch. \n;\nYou have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course {goal_name}. ⭐"
+        "congratulations.msg_list": "Lesson complete! You have learnt to teach Your Child about safe touch. \n;\nYou have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course {goal_name}. ⭐",
+        "attached_single_doc": "https://docs.google.com/document/d/1izzpEuUlAsov6-TF7zvlQJk8vy0EqWnNnv0RS0uq6QY"
       },
       {
         "ID": "safe_touch_2to5_yc_f",
@@ -408,7 +409,7 @@
         "tips.message.2.image": "",
         "tips.message.3.text": "3️⃣ GET AWAY\n\n💡 Always teach Your Child how to get away from any situation where they feel uncomfortable. \n\n🚩 Offenders are usually known to the child and/or caregivers and initially engage in physical activities like wrestling or touching. This is to get the child comfortable with touch.\n\n❗ When playing physical games like wrestling  with your child, practice saying \"no\" and respecting their boundaries. If your child says \"no\", stop the game immediately.\n\n🌷 This empowers them to say “NO!” to unsafe situations outside the home as well. It will not be as easy for the child to get away from such situations, but teaching them how to leave when they feel uncomfortable will help.",
         "tips.message.3.image": "",
-        "tips.message.4.text": "4️⃣ TELL AN ADULT\n\n🔴 Tell Your Child that if they feel worried, uncomfortable, or unsafe about anyone touching them, they should tell you or an adult they trust. Always believe your child when they tell you about someone touching them in an unsafe way.\n\n👂 If Your Child tells you about something that has happened, listen openly and tell them they were right to tell you. Then, take steps to keep them safe, including not ever leaving them alone with anyone that makes them feel unsafe.",
+        "tips.message.4.text": "4️⃣ TELL AN ADULT\n\n🔴 Tell Your Child that if they feel worried, uncomfortable, or unsafe about anyone touching them, they should tell you or an adult they trust. Always believe your child when they tell you about someone touching them in an unsafe way.\n\n👂 If Your Child tells you about something that has happened, listen openly and tell them they were right to tell you. Then, take steps to keep them safe, including not ever leaving them alone with anyone that makes them feel unsafe.\n\n❤️‍🩹  You are not alone. Call Childline on 116 — a caring counsellor is ready to listen, support, and help you find a way through tough situations. Teach your child to dial 116 if they or someone they know needs extra help and support.",
         "tips.message.4.image": "",
         "tips.message.5.text": "",
         "tips.message.6.text": "",
@@ -422,7 +423,8 @@
         "home_activity.activity": "Home activity! ⭐ \n\nHave a conversation with Your Child about safe and unsafe touch. ❌ Help them practise saying, “No, don’t do that!” and remind them to tell an adult if it happens. \n\nCan you do this with Your Child today? ⏰",
         "home_activity.positive_msg": "That’s great! 💙 This will help them protect themselves if they ever feel unsafe when somebody touches them. You’re doing so well!",
         "home_activity.negative_msg": "That's OK! If you don't have time today, set some time aside tomorrow. Talking to Your Child about this will help them protect themselves if they ever feel unsafe when somebody touches them. 💙 You’re doing so well!",
-        "congratulations.msg_list": "Lesson complete! You have learnt to teach Your Child about safe touch. \n;\nYou have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}. ⭐"
+        "congratulations.msg_list": "Lesson complete! You have learnt to teach Your Child about safe touch. \n;\nYou have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}. ⭐",
+        "attached_single_doc": ""
       },
       {
         "ID": "safe_touch_6to9_yc",
@@ -461,7 +463,7 @@
         "tips.message.2.image": "",
         "tips.message.3.text": "3️⃣ GET AWAY\n\n🚲 Always teach Your Child how to get away from any situation where they feel uncomfortable. \n\n🚩 Offenders are usually known to the child and/or caregivers and initially engage in physical activities like wrestling or touching. This is to get the child comfortable with touch.\n\n❗ When playing physical games like wrestling with your child, practice saying \"no\" and respecting their boundaries. If your child says \"no\", stop the game immediately.\n\n🌷 This empowers them to say “NO!” to unsafe situations outside the home as well. It will not be as easy for the child to get away from such situations, but teaching them how to leave when they feel uncomfortable will help.",
         "tips.message.3.image": "",
-        "tips.message.4.text": "4️⃣ TELL AN ADULT\n\n🔴 Tell Your Child that if they feel worried, uncomfortable, or unsafe about anyone touching them, they should tell you or an adult they trust.\n\n👂 If Your Child tells you about something that has happened, listen openly and tell them they were right to tell you. Then, take steps to keep them safe, including not ever leaving them alone with anyone that makes them feel unsafe.",
+        "tips.message.4.text": "4️⃣ TELL AN ADULT\n\n🔴 Tell Your Child that if they feel worried, uncomfortable, or unsafe about anyone touching them, they should tell you or an adult they trust.\n\n👂 If Your Child tells you about something that has happened, listen openly and tell them they were right to tell you. Then, take steps to keep them safe, including not ever leaving them alone with anyone that makes them feel unsafe.\n\n❤️‍🩹  You are not alone. Call Childline on 116 — a caring counsellor is ready to listen, support, and help you find a way through tough situations. Teach your child to dial 116 if they or someone they know needs extra help and support.",
         "tips.message.4.image": "",
         "tips.message.5.text": "",
         "tips.message.6.text": "",
@@ -475,7 +477,8 @@
         "home_activity.activity": "Home activity! ⭐ \n\nHave a conversation with Your Child about saying no to unwanted or unsafe touch. ❌ Help them practise saying, “No, don’t do that!” and remind them to tell an adult if it happens. \n\nCan you do this with Your Child today? ⏰",
         "home_activity.positive_msg": "That’s great! 💙 This will help them protect themselves if they ever feel unsafe when somebody touches them. You’re doing so well!",
         "home_activity.negative_msg": "That's OK! If you don't have time today, set some time aside tomorrow. Talking to Your Child about this will help them protect themselves if they ever feel unsafe when somebody touches them. 💙 You’re doing so well!",
-        "congratulations.msg_list": "Lesson complete! You have learnt to teach Your Child about safe touch. \n;\nYou have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}. ⭐"
+        "congratulations.msg_list": "Lesson complete! You have learnt to teach Your Child about safe touch. \n;\nYou have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}. ⭐",
+        "attached_single_doc": ""
       },
       {
         "ID": "com_safety_2to4_yc",
@@ -528,7 +531,8 @@
         "home_activity.activity": "Home activity! ⭐\n \n📝 Today, have a conversation with Your Child about which places are safe or unsafe for children in your community.\n\nDo you have time to do it today? ⏰",
         "home_activity.positive_msg": "Great! 💙 You are helping Your Child be aware of their surroundings to keep themselves safe.",
         "home_activity.negative_msg": "That's OK! If you don't have time today, set some time aside tomorrow to talk to your child about safe and unsafe places. You can do this! 🌷",
-        "congratulations.msg_list": "Great job! 🎉 You have learnt about keeping Your Child safe in your community! You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}. ⭐"
+        "congratulations.msg_list": "Great job! 🎉 You have learnt about keeping Your Child safe in your community! You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}. ⭐",
+        "attached_single_doc": ""
       },
       {
         "ID": "com_safety_5to9_yc",
@@ -581,7 +585,8 @@
         "home_activity.activity": "Home activity! ⭐\n \n📝 Today, have a conversation with Your Child about which places are safe or unsafe for children in your community.\n\n✨ Give space for your child to share their thoughts, too. They may think a place is unsafe that you thought was safe. Allow them to explain their reasons. Do you have time to do it today? ⏰",
         "home_activity.positive_msg": "Great! 💙 You are helping Your Child be aware of their surroundings to keep themselves safe.",
         "home_activity.negative_msg": "That's OK! If you don't have time today, set some time aside tomorrow to talk to your child about safe and unsafe places. You can do this! 🌷",
-        "congratulations.msg_list": "Great job! 🎉 You have learnt about keeping Your Child safe in your community! You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}. ⭐"
+        "congratulations.msg_list": "Great job! 🎉 You have learnt about keeping Your Child safe in your community! You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}. ⭐",
+        "attached_single_doc": ""
       },
       {
         "ID": "crises_2to6_yc",
@@ -618,7 +623,7 @@
         "tips.message.1.image": "",
         "tips.message.2.text": "2️⃣ LISTEN: Ask your child what is going on \n\n👂 Let your child share with you what they need. Sometimes, it may be easier for your child to draw what happened instead of explaining it. \n👀 Notice what they are feeling and tell them what you notice so they feel heard. \n💙 Tell your child that you are there for them and love them.\n😣Both girls AND boys could face hard times and crisis situations. Remember to check-in with both.",
         "tips.message.2.image": "",
-        "tips.message.3.text": "3️⃣ RESPOND: What might help?\n\n🔶 You might need to help your child talk about their feelings. \n⏸ In the moment, your child needs you to be there for them with love and accept their feelings.\n➡️ You might need to talk about the actions that you or your child could take to help with what has happened.\n✅ Remember, you can always type {HELP} to ParentText and get information about resources in your community where you can receive help.",
+        "tips.message.3.text": "3️⃣ RESPOND: What might help?\n\n🔶 You might need to help your child talk about their feelings. \n⏸ In the moment, your child needs you to be there for them with love and accept their feelings.\n➡️ You might need to talk about the actions that you or your child could take to help with what has happened.\n\n❤️‍🩹 Remember: ChildLine is here to help. If your child is experiencing violence, dial 116. \n✅ You can also type {HELP} in ParentText to see where you can find help in your community.",
         "tips.message.3.image": "",
         "tips.message.4.text": "4️⃣ COMFORT: Be there for your child\n\n🌷 It can be hard to see your child feeling upset or confused, but there is a lot you can do to support them.\n💚 They need you to accept them and comfort them when difficult things are going on.\n🔄In these moments, maintaining a consistent routine can be particularly helpful. Familiar routines can provide a sense of security and normalcy, helping your child feel safe again.\n🎈 Remind your child again that you love them, and thank them for sharing with you.",
         "tips.message.4.image": "",
@@ -634,7 +639,8 @@
         "home_activity.activity": "Home Activity! ⭐ \n\nFind a calm time to look at the community map you created with your child during the previous tip. Talk about possible risks and what they could do to avoid them. Discuss possible actions that you can take with Your Child if they happen. 💡\n\nDo you have time to do this today? ⏰",
         "home_activity.positive_msg": "Amazing! 💙 This can help prepare you and your child to face hard situations AND avoid them in the first place.",
         "home_activity.negative_msg": "That's OK! 💙 Plan to set aside some time in the next few days to have this chat with your child. This can help prepare you and Your Child to face hard situations AND avoid them in the first place.",
-        "congratulations.msg_list": "Amazing job! 🎉 You have completed the Respond to Crises lesson! You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}."
+        "congratulations.msg_list": "Amazing job! 🎉 You have completed the Respond to Crises lesson! You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}.",
+        "attached_single_doc": ""
       },
       {
         "ID": "crises_7to9_yc",
@@ -671,7 +677,7 @@
         "tips.message.1.image": "",
         "tips.message.2.text": "2️⃣ LISTEN: Ask your child what is going on \n\n👂 Let your child share with you what they need. Sometimes, your child might be comfortable sharing by drawing or using toys.\n👀 Notice what they are feeling and tell them what you notice so they feel heard. \n💙 Tell your child that you are there for them and love them.\n😣Both girls AND boys could face hard times and crisis situations. Remember to check-in with both.",
         "tips.message.2.image": "",
-        "tips.message.3.text": "3️⃣RESPOND: What might help?\n\n🔶 You might need to help your child talk about their feelings.\n⏸ In the moment, your child needs you to be there for them with love and accept their feelings.\n➡️ You might need to talk about the actions that you or your child could take to help with what has happened.\n✅ Remember, you can always type {HELP} to ParentText and get information about resources in your community where you can receive help.",
+        "tips.message.3.text": "3️⃣RESPOND: What might help?\n\n🔶 You might need to help your child talk about their feelings.\n⏸ In the moment, your child needs you to be there for them with love and accept their feelings.\n➡️ You might need to talk about the actions that you or your child could take to help with what has happened. \n❤️‍🩹 Remember: ChildLine is here to help. If your child is experiencing violence, dial 116. \n✅ You can also type {HELP} in ParentText to see where you can find help in your community.",
         "tips.message.3.image": "",
         "tips.message.4.text": "4️⃣ COMFORT: Be there for your child\n\n🌷 It can be hard to see your child feeling upset or confused, but there is a lot you can do to support them.\n💚 They need you to accept them and comfort them when difficult things are going on.  Familiar routines can provide a sense of security and normalcy, helping your child feel safe again.\n🎈 Remind your child again that you love them, and thank them for sharing with you.",
         "tips.message.4.image": "",
@@ -687,7 +693,8 @@
         "home_activity.activity": "Home Activity! ⭐ \n\nFind a calm time to look at the community map you created with your child during the previous tip. Talk about possible risks and what they could do to avoid them. Discuss possible actions that you can take with Your Child if they happen. 💡\n\nDo you have time to do this today? ⏰",
         "home_activity.positive_msg": "Amazing! 💙This can help prepare you and Your Child to face hard situations AND avoid them in the first place.",
         "home_activity.negative_msg": "That's OK! Plan to set aside an hour in the next few days to have this chat with Your Child. This can help prepare you and Your Child to face hard situations AND avoid them in the first place.",
-        "congratulations.msg_list": "Amazing job! 🎉 You have completed the Respond to Crises lesson! You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}."
+        "congratulations.msg_list": "Amazing job! 🎉 You have completed the Respond to Crises lesson! You have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}.",
+        "attached_single_doc": ""
       },
       {
         "ID": "online_safety_yc",
@@ -740,7 +747,8 @@
         "home_activity.activity": "Home activity! ⭐ Ask Your Child what they do to stay safe online. 👂 You may find that they are already thinking about online safety. 💡\n\nPraise Your Child for any efforts they make. Can you talk with Your Child today? 🔔",
         "home_activity.positive_msg": "That’s great! Helping Your Child stay safe online is important so they can learn and connect with others. Well done for getting involved. They will be safer for it! 🔑",
         "home_activity.negative_msg": "That’s OK. Put some time aside this week to do this activity with your child. ⏰ It’s important to talk to our children about how to stay safe online so they can use the digital world to learn more and connect with others. You can do this! ⭐",
-        "congratulations.msg_list": "Lesson complete! You have learnt the importance of knowing the basics of online safety. \n;\nYou have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}. ⭐"
+        "congratulations.msg_list": "Lesson complete! You have learnt the importance of knowing the basics of online safety. \n;\nYou have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}. ⭐",
+        "attached_single_doc": ""
       },
       {
         "ID": "habits_trust_online_yc",
@@ -793,7 +801,8 @@
         "home_activity.activity": "Home activity!⭐ Here are some steps you can take to keep Your Child safe online today:\n\n 📝 Have a conversation with Your Child about how they can use the internet and devices in a safe way. \n\n🔴 Talk about which sites or apps might be unsafe and why?\n\n😃 Praise Your Child for how good they are at using the web safely!\n\nCan you and Your Child complete this task today? 🔔",
         "home_activity.positive_msg": "That’s great! Helping Your Child stay safe online is important so they can learn and connect with others. Well done for getting involved. They will be safer for it! 🔑",
         "home_activity.negative_msg": "That’s OK. Put some time aside this week to do this activity with your child. ⏰ It’s important to talk to our children about how to stay safe online so they can use the digital world to learn more and connect with others. You can do this! ⭐",
-        "congratulations.msg_list": "Lesson complete! You have learnt the importance of building habits and trust online.\n;\nYou have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}.⭐"
+        "congratulations.msg_list": "Lesson complete! You have learnt the importance of building habits and trust online.\n;\nYou have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course, {goal_name}.⭐",
+        "attached_single_doc": ""
       }
     ],
     "==sidekick==": [
@@ -1757,6 +1766,7 @@
         "home_activity.negative_msg": "That's OK! Try to complete this task during the week. You can type {GROW} at any time to begin.",
         "congratulations.msg_list": "Lesson complete! You have learnt to support the healthy development of Your Child at this age as they learn and explore their environment.\n;\nYou have now completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod lessons in the course {goal_name}. ⭐"
       }
-    ]
+    ],
+    "==content_list==": []
   }
 }

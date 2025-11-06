@@ -588,8 +588,8 @@
     "note": ""
   },
   {
-    "SourceText": "Let's start with the course",
-    "text": "Kom ons begin met die kursus",
+    "SourceText": "Let's start with your final course:",
+    "text": "Kom ons begin met jou laaste kursus:",
     "type": "text",
     "note": ""
   },
@@ -600,8 +600,8 @@
     "note": ""
   },
   {
-    "SourceText": "What would you like to do next?",
-    "text": "Wat wil jy graag volgende doen?",
+    "SourceText": "We'll continue the course tomorrow. Is there anything else you'd like to do today?",
+    "text": "Ons sal môre aangaan met die kursus. Is daar enigiets anders wat jy vandag wil doen?",
     "type": "text",
     "note": ""
   },
@@ -630,8 +630,32 @@
     "note": ""
   },
   {
-    "SourceText": "Thank you for participating!",
-    "text": "Dankie vir jou deelname!",
+    "SourceText": "*🥳 Wow! You did it—you finished the whole programme!*",
+    "text": "*🥳 Sjoe! Jy het dit gedoen—jy het die hele program voltooi!*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "ParentText only took a few minutes a day, but the real work was the time you spent with @fields.child_nickname.",
+    "text": "ParentText het slegs 'n paar minute per dag geneem, maar die eintlike werk was die tyd wat jy met @fields.child_nickname spandeer het.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Thank you for joining me and for investing in yourself and @fields.child_nickname. You both matter—and you’re worth it!",
+    "text": "Dankie dat jy by my aangesluit het en dat jy in jouself en @fields.child_nickname belê het. Julle is albei belangrik—en julle is dit werd!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "ParentText only took a few minutes a day, but the real work was the time you spent with your child.",
+    "text": "ParentText het slegs 'n paar minute per dag geneem, maar die eintlike werk was die tyd wat jy met jou kind spandeer het.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for joining me and for investing in yourself and your child. You both matter—and you’re worth it!",
+    "text": "Dankie dat jy by my aangesluit het en dat jy in jouself en jou kind belê het. Julle is albei belangrik—en julle is dit werd!",
     "type": "text",
     "note": ""
   },
@@ -764,6 +788,12 @@
   {
     "SourceText": "{share link}",
     "text": "{share link}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What would you like to do next?",
+    "text": "Wat wil jy graag volgende doen?",
     "type": "text",
     "note": ""
   },
@@ -1620,6 +1650,24 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
+    "SourceText": "Want to improve your relationship with your child in just 5 days?",
+    "text": "Wil jy jou verhouding met jou kind in net 5 dae verbeter?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Send PARENTTEXT to this number and get FREE daily practical tips.",
+    "text": "Stuur PARENTTEXT na hierdie nommer en kry GRATIS daaglikse praktiese wenke.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Illustrations in ParentText help explain parenting skills. They are original works by Orli Setton created for Parenting for Lifelong Health and the Global Parenting Initiative, and shared under a CC BY-SA 4.0 International licence.",
+    "text": "Illustrasies in ParentText help om ouerskapsvaardighede te verduidelik. Dit is oorspronklike werke deur Orli Setton, geskep vir Parenting for Lifelong Health en die Global Parenting Initiative, en gedeel onder 'n CC BY-SA 4.0 Internasionale lisensie.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "Text, Images, and Videos",
     "text": "Teks, Prente en Video's",
     "type": "quick_replies",
@@ -1878,14 +1926,14 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Continue my progress tomorrow",
-    "text": "Gaan môre voort met my vordering",
+    "SourceText": "Go to Main Menu",
+    "text": "Gaan na Hoofkieslys",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Go to Main Menu",
-    "text": "Gaan na Hoofkieslys",
+    "SourceText": "Continue my progress tomorrow",
+    "text": "Gaan môre voort met my vordering",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -2168,6 +2216,12 @@
   {
     "SourceText": "Exit",
     "text": "Gaan uit",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "PARENTTEXT",
+    "text": "PARENTTEXT",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -2478,6 +2532,12 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
+    "SourceText": "grow",
+    "text": "groei",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
     "SourceText": "stop",
     "text": "stop",
     "type": "arguments",
@@ -2486,6 +2546,24 @@
   {
     "SourceText": "no n nope nah",
     "text": "nee n nee nah",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "parenttext",
+    "text": "parenttext",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "parentext",
+    "text": "parentext",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "hi",
+    "text": "hi",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
