@@ -3,14 +3,17 @@
         "version": "1.0.0",
         "pipeline_version": "1.0.0"
     },
+    "parents": {
+        "plh": {
+            "location": "https://github.com/IDEMSInternational/parenttext-templates/archive/refs/tags/v1.1.4.zip"
+        }
+    },
     "flows_outputbasename": "parenttext_all",
     "output_split_number": 1,
     "sheet_names": {
         "power_of_play": "1SfCm8B5d0JSLL-k51uKA0iWZSUda45ITf449a8DwdDY",
         "scale_sheets": "1Wc3Tv1TQbUNKBLEnZn5Z3JSTh0F9Ts6T_prWG92f4Ck",
-        "T_content": "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU",
         "N_onboarding_data": "1M8CTXL7C0gIMw28hRTCMdAgfr8j2SEEO5WLJPPWC4GU",
-        "T_onboarding": "1Sl0Jl_N4cGQi2INmE_EnX_aYUMUrUB6cKbuWVPzirtY",
         "C_ltp_activities": "1wiN4MLCYR_kZwDTnUq7j66PysVMO3w3vt6fsdDQ0AD4",
         "C_modules_teen": "17RxmDKdsVF-x-jx-KXVIDK4GZfecXlWTxw8jIHwf6i4",
         "C_modules_child": "1SXn98ns6wGXLiTiBbwxIXPbGmoWGGBnTwpIUNCPBRn8",
@@ -18,56 +21,50 @@
         "C_goal_checkin": "1hKerP_Yiy757s_7KK7k781PXxH-md149HJxvLqmhDTQ",
         "C_dev_asess_tool" : "1T8zYOmuQfpgaA0hN7ILoM9BzvQv_DrMUUHh1RYXr0io",
         "N_safeguarding_data": "1k2gRBBg2ECFsGfMYW5_noD7N0Bs-bGycvxcQYKwIXsY",
-        "T_safeguarding": "1bWOyM5yShTTJSaxwqRCrjUzkwbp7DF6_nSF_96YcZ2c",
-        "T_delivery": "1q6E2c4Bg_UvqTmhxAsTIQngwAtj0aFoqu8wsPHnqmaU",
         "N_delivery_data": "1kox6RTjxK3Og2DKNsvpLgYXUOyLZ2qYn8mT2hJjIw28",
-        "T_menu": "1lIiFjZKS0eXzzo6XwDdqYv4e1A73WFCpWZg5ju-tCZE",
         "N_menu_data": "1ulOpA3kfFTUJtfqD6Ricmn0xEhZikrtR50yhXkVUPJM",
-        "ab_testing_sheet_ID": "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s",
         "localisation_sheet_ID" : "1zwe7G_mJeQl-oZmXOzNhvJxAIYOkTlM_NKvRyLBmVs0", 
-        "eng_edits_sheet_ID" : "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI",
         "transl_edits_sheet_ID" : "1SkWANOfFQ-mRwy1fFxP0tpqNSRoFBngsVVq9u8Ejheo"
     },
     "sources": {
         "flow_definitions": {
-            "parent_sources": [],
+            "parent_sources": [
+                "plh.flow_definitions"
+            ],
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
                     "N_onboarding_data",
-                    "T_onboarding",
                     "C_ltp_activities",
                     "C_modules_all_ages",
                     "C_modules_teen",
                     "C_modules_child",
                     "C_goal_checkin",
                     "C_dev_asess_tool",
-                    "T_content",
                     "N_safeguarding_data",
-                    "T_safeguarding",
                     "N_delivery_data",
-                    "T_delivery",
                     "N_menu_data",
-                    "T_menu",
                     "scale_sheets",
                     "power_of_play"
                 ]
         },
         "edits_pretranslation": {
-            "parent_sources": [ ],
+            "parent_sources": [
+                "plh.edits_pretranslation"
+            ],
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
-                "ab_testing_sheet_ID",
                 "localisation_sheet_ID"
             ]
         },
         "edits_posttranslation": {
-            "parent_sources": [],
+            "parent_sources": [
+                "plh.edits_posttranslation"
+            ],
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
-                "eng_edits_sheet_ID",
                 "transl_edits_sheet_ID"
             ]
         },
